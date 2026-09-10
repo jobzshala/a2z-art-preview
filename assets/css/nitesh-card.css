@@ -1,0 +1,953 @@
+/*=====================================================
+Authority Section
+=====================================================*/
+
+.ansauth-section{
+    position:relative;
+    padding:50px 0;
+    background:linear-gradient(180deg,#ffffff 0%,#fffdf9 100%);
+    overflow:hidden;
+}
+
+/*=============================
+Background Decoration
+=============================*/
+
+.ansauth-section:before{
+    content:"";
+    position:absolute;
+    left:-120px;
+    top:-120px;
+    width:380px;
+    height:380px;
+    border-radius:50%;
+    background:radial-gradient(circle,#f5dfad 0%,transparent 70%);
+    opacity:.35;
+}
+
+.ansauth-section:after{
+    content:"";
+    position:absolute;
+    right:-140px;
+    bottom:-140px;
+    width:420px;
+    height:420px;
+    border-radius:50%;
+    background:radial-gradient(circle,#f6e5bc 0%,transparent 70%);
+    opacity:.35;
+}
+
+.ansauth-shape{
+    position:absolute;
+    border-radius:50%;
+    z-index:0;
+    filter:blur(70px);
+}
+
+.ansauth-shape-1{
+    width:220px;
+    height:220px;
+    left:8%;
+    top:18%;
+    background:#f4e4bf;
+}
+
+.ansauth-shape-2{
+    width:180px;
+    height:180px;
+    right:10%;
+    bottom:12%;
+    background:#f7ecd0;
+}
+
+/*=============================
+Main Card
+=============================*/
+
+.ansauth-wrapper{
+
+    position:relative;
+    z-index:5;
+
+    background:rgba(255,255,255,.90);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:26px;
+
+    padding:32px 38px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(199,160,72,.18);
+
+    box-shadow:
+
+    0 20px 60px rgba(0,0,0,.08);
+
+}
+
+/* Premium Border */
+
+.ansauth-wrapper:before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    border-radius:26px;
+
+    padding:1px;
+
+    background:
+
+    linear-gradient(135deg,
+
+    rgba(199,160,72,.50),
+
+    transparent 40%,
+
+    rgba(199,160,72,.40));
+
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+
+    -webkit-mask-composite:xor;
+
+    mask-composite:exclude;
+
+}
+
+/*=============================
+Header
+=============================*/
+
+.ansauth-header{
+
+    text-align:center;
+
+}
+
+/*=============================
+Badge
+=============================*/
+
+.ansauth-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:8px 18px;
+
+    background:#fff9ed;
+
+    border:1px solid #ead7a7;
+
+    border-radius:50px;
+
+    color:#98711d;
+
+    font-size:15px;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    font-weight:700;
+
+}
+
+.ansauth-badge i{
+
+    color:#c79d39;
+
+    font-size:14px;
+
+}
+
+/*=============================
+Name
+=============================*/
+
+.ansauth-header h2{
+
+    margin:12px 0 8px;
+
+    font-size:52px;
+
+    line-height:1;
+
+    font-family:Georgia,serif;
+
+    color:#14335d;
+
+    font-weight:700;
+
+}
+
+/*=============================
+Designation
+=============================*/
+
+.ansauth-designation{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+    color:#666;
+
+    font-size:16px;
+
+    margin-bottom:18px;
+
+}
+
+.ansauth-designation span{
+
+    width:7px;
+    height:7px;
+
+    border-radius:50%;
+
+    background:#c79d39;
+
+}
+
+/*=============================
+Third Row
+=============================*/
+
+.ansauth-info-row{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:28px;
+
+    flex-wrap:wrap;
+
+}
+/*=========================================
+PHONE NUMBERS
+=========================================*/
+
+.ansauth-phone{
+
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+
+    text-decoration:none;
+
+    color:#14335d;
+
+    font-size:28px;
+    font-weight:800;
+    line-height:1;
+
+    transition:.35s;
+
+}
+
+.ansauth-phone:hover{
+
+    color:#b88723;
+
+}
+
+.ansauth-phone i{
+
+    width:46px;
+    height:46px;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:16px;
+
+    background:linear-gradient(135deg,#d6b15b,#b78521);
+
+    box-shadow:0 8px 20px rgba(184,135,33,.30);
+
+}
+
+.ansauth-wrapper{
+    position:relative;
+    z-index:10;
+}
+
+.ansauth-header{
+    position:relative;
+    z-index:20;
+}
+
+.ansauth-phone{
+    position:relative;
+    z-index:30;
+}
+
+.ansauth-section:before,
+.ansauth-section:after,
+.ansauth-wrapper:before,
+.ansauth-wrapper:after,
+.ansauth-shape{
+    pointer-events:none;
+}
+
+/*=========================================
+TRUST
+=========================================*/
+
+.ansauth-trust{
+
+    display:flex;
+    align-items:center;
+    gap:22px;
+
+    margin-left:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.ansauth-trust span{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    font-size:15px;
+
+    color:#555;
+
+    font-weight:600;
+
+}
+
+.ansauth-trust i{
+
+    color:#c79d39;
+
+    font-size:15px;
+
+}
+
+.ansauth-trust strong{
+
+    color:#17345d;
+
+    font-size:20px;
+
+}
+
+/*=========================================
+SECTION TITLE
+=========================================*/
+
+.ansauth-title{
+
+    margin:24px 0;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:18px;
+
+}
+
+.ansauth-title span{
+
+    flex:1;
+
+    max-width:150px;
+
+    height:1px;
+
+    background:linear-gradient(to right,
+    transparent,
+    #d4b46c,
+    transparent);
+
+}
+
+.ansauth-title h3{
+
+    margin:0;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    color:#14335d;
+
+}
+
+/*=========================================
+GRID
+=========================================*/
+
+/*=========================================
+PREMIUM AUTHORITY GRID
+=========================================*/
+
+.ansauth-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:14px;
+
+    margin-top:10px;
+
+}
+
+/*=========================================
+AUTHORITY CARD
+=========================================*/
+
+.ansauth-item{
+
+    position:relative;
+
+    display:flex;
+    align-items:center;
+
+    min-height:62px;
+
+    padding:14px 16px 14px 54px;
+
+    background:linear-gradient(180deg,#ffffff,#fefcf7);
+
+    border:1px solid #ede4cd;
+
+    border-radius:16px;
+
+    color:#333;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    line-height:1.45;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+/* Left Gold Strip */
+
+.ansauth-item:after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:linear-gradient(#d8b868,#ba8926);
+
+}
+
+/* Premium Tick */
+
+.ansauth-item:before{
+
+    content:"✓";
+
+    position:absolute;
+
+    left:16px;
+
+    width:24px;
+
+    height:24px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    background:linear-gradient(135deg,#d7b969,#b88622);
+
+    box-shadow:0 6px 12px rgba(184,134,34,.25);
+
+}
+
+/* Hover */
+
+.ansauth-item:hover{
+
+    transform:translateY(-6px);
+
+    background:#fff;
+
+    color:#153760;
+
+    border-color:#d6b66b;
+
+    box-shadow:
+
+    0 18px 35px rgba(0,0,0,.08);
+
+}
+
+/* Gold Glow */
+
+.ansauth-item:hover:after{
+
+    width:6px;
+
+}
+
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+@media(max-width:1199px){
+
+    .ansauth-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ansauth-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/*=========================================
+BULLETS
+=========================================*/
+
+.ansauth-grid li{
+
+    position:relative;
+
+    padding-left:30px;
+
+    margin-bottom:16px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#444;
+
+    line-height:1.55;
+
+}
+
+.ansauth-grid li:last-child{
+
+    margin-bottom:0;
+
+}
+
+/* Bullet Circle */
+
+.ansauth-grid li:before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    top:4px;
+
+    width:18px;
+    height:18px;
+
+    border-radius:50%;
+
+    background:linear-gradient(180deg,#d7b968,#ba8b27);
+
+    box-shadow:0 5px 10px rgba(184,135,33,.25);
+
+}
+
+/* Tick */
+
+.ansauth-grid li:after{
+
+    content:"✓";
+
+    position:absolute;
+
+    left:5px;
+    top:2px;
+
+    color:#fff;
+
+    font-size:11px;
+
+    font-weight:700;
+
+}
+
+/* Hover */
+
+.ansauth-grid li:hover{
+
+    color:#17345d;
+
+    padding-left:34px;
+
+}
+
+/*=========================================
+BOTTOM GOLD LINE
+=========================================*/
+
+.ansauth-grid:after{
+
+    content:"";
+
+    grid-column:1/-1;
+
+    height:3px;
+
+    background:linear-gradient(90deg,
+    transparent,
+    #d4b46c,
+    transparent);
+
+    border-radius:20px;
+
+}
+
+/*==========================================
+TABLETS
+==========================================*/
+
+@media (max-width:991px){
+
+.ansauth-section{
+    padding:35px 0;
+}
+
+.ansauth-wrapper{
+    padding:24px 20px;
+    border-radius:18px;
+}
+
+.ansauth-header h2{
+    font-size:36px;
+    line-height:1.1;
+    margin:10px 0 6px;
+}
+
+.ansauth-designation{
+    font-size:14px;
+    gap:8px;
+    margin-bottom:14px;
+    flex-wrap:wrap;
+}
+
+.ansauth-info-row{
+    flex-direction:column;
+    gap:14px;
+}
+
+.ansauth-phone{
+    font-size:22px;
+}
+
+.ansauth-phone i{
+    width:40px;
+    height:40px;
+    font-size:14px;
+}
+
+.ansauth-trust{
+    margin-left:0;
+    justify-content:center;
+    gap:18px;
+}
+
+.ansauth-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.ansauth-title h3{
+    font-size:16px;
+}
+
+}
+
+/*==========================================
+MOBILE
+==========================================*/
+
+@media (max-width:767px){
+
+.ansauth-section{
+    padding:25px 0;
+}
+
+.ansauth-wrapper{
+
+    padding:18px;
+
+    border-radius:16px;
+
+}
+
+.ansauth-badge{
+
+    font-size:10px;
+
+    padding:6px 12px;
+
+}
+
+.ansauth-header h2{
+
+    font-size:28px;
+
+    margin:8px 0;
+
+}
+
+.ansauth-designation{
+
+    font-size:13px;
+
+    line-height:1.5;
+
+    gap:6px;
+
+}
+
+.ansauth-designation span{
+
+    width:5px;
+
+    height:5px;
+
+}
+
+.ansauth-info-row{
+
+    gap:10px;
+
+}
+
+/* Phones */
+
+.ansauth-phone{
+
+    width:100%;
+
+    justify-content:center;
+
+    font-size:20px;
+
+    padding:8px 12px;
+
+}
+
+.ansauth-phone i{
+
+    width:34px;
+
+    height:34px;
+
+    font-size:13px;
+
+}
+
+/* Trust */
+
+.ansauth-trust{
+
+    width:100%;
+
+    justify-content:center;
+
+    gap:12px;
+
+}
+
+.ansauth-trust span{
+
+    font-size:13px;
+
+}
+
+.ansauth-trust strong{
+
+    font-size:16px;
+
+}
+
+/* Title */
+
+.ansauth-title{
+
+    margin:18px 0;
+
+    gap:10px;
+
+}
+
+.ansauth-title h3{
+
+    font-size:14px;
+
+    line-height:1.4;
+
+}
+
+.ansauth-title span{
+
+    max-width:40px;
+
+}
+
+/* Grid */
+
+.ansauth-grid{
+
+    grid-template-columns:1fr;
+
+    gap:10px;
+
+}
+
+.ansauth-item{
+
+    min-height:auto;
+
+    padding:12px 14px 12px 46px;
+
+    font-size:13px;
+
+    border-radius:12px;
+
+}
+
+.ansauth-item:before{
+
+    width:20px;
+
+    height:20px;
+
+    left:12px;
+
+    font-size:11px;
+
+}
+
+.ansauth-item:after{
+
+    width:3px;
+
+}
+
+.ansauth-shape{
+
+    display:none;
+
+}
+
+}
+
+/*==========================================
+SMALL PHONES
+==========================================*/
+
+@media (max-width:480px){
+
+.ansauth-header h2{
+
+    font-size:24px;
+
+}
+
+.ansauth-phone{
+
+    font-size:18px;
+
+}
+
+.ansauth-phone i{
+
+    width:30px;
+
+    height:30px;
+
+}
+
+.ansauth-trust{
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.ansauth-trust span{
+
+    justify-content:center;
+
+}
+
+.ansauth-title h3{
+
+    font-size:13px;
+
+}
+
+}

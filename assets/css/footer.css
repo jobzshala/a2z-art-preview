@@ -1,0 +1,4372 @@
+/*=====================================================
+
+A2Z ART & ANTIQUES FOOTER
+
+Prefix : aavf1-
+
+======================================================*/
+
+/*====================================================
+
+A2Z VALUERS PREMIUM FOOTER
+
+PART 1 CSS
+
+Prefix : aavf2-
+
+====================================================*/
+
+
+
+.aavf2-footer{
+
+    background:#faf8f3;
+
+    border-top:1px solid #e7dccb;
+
+    padding:80px 0 0;
+
+    font-family:'Poppins',sans-serif;
+
+    color:#555;
+
+}
+
+
+
+/*==========================
+
+Brand
+
+==========================*/
+
+
+
+.aavf2-brand{
+
+    padding-right:35px;
+
+}
+
+
+
+.aavf2-logo{
+
+    display:inline-block;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.aavf2-logo img{
+
+       max-width: 300px;
+
+    height: auto;
+
+    border-radius: 20px;
+
+    padding: 5px;
+
+}
+
+
+
+.aavf2-brand p{
+
+    font-size:15px;
+
+    line-height:1.9;
+
+    color:#666;
+
+    margin-bottom:18px;
+
+}
+
+
+
+/*==========================
+
+Contact
+
+==========================*/
+
+
+
+.aavf2-contact{
+
+    margin-top:30px;
+
+}
+
+
+
+.aavf2-contact a{
+
+
+
+    display:flex;
+
+    align-items:center;
+
+
+
+    gap:12px;
+
+
+
+    text-decoration:none;
+
+
+
+    color:#0B2545;
+
+
+
+    font-size:15px;
+
+
+
+    margin-bottom:15px;
+
+
+
+    transition:.35s;
+
+
+
+}
+
+
+
+.aavf2-contact a:hover{
+
+
+
+    color:#C9A961;
+
+
+
+}
+
+
+
+.aavf2-contact i{
+
+
+
+    width:42px;
+
+    height:42px;
+
+
+
+    border-radius:50%;
+
+
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+
+
+    background:#fff;
+
+
+
+    border:1px solid #e5d9c8;
+
+
+
+    color:#C9A961;
+
+
+
+    transition:.35s;
+
+
+
+}
+
+
+
+.aavf2-contact a:hover i{
+
+
+
+    background:#0B2545;
+
+
+
+    color:#fff;
+
+
+
+    border-color:#0B2545;
+
+
+
+}
+
+
+
+/*==========================
+
+Footer Columns
+
+==========================*/
+
+
+
+.aavf2-footer h4{
+
+
+
+    font-family:'Playfair Display',serif;
+
+
+
+    font-size:24px;
+
+
+
+    color:#0B2545;
+
+
+
+    margin-bottom:28px;
+
+
+
+    position:relative;
+
+
+
+    padding-bottom:14px;
+
+
+}
+
+
+
+.aavf2-footer h4:after{
+
+
+
+    content:"";
+
+
+
+    position:absolute;
+
+
+
+    left:0;
+
+    bottom:0;
+
+
+
+    width:45px;
+
+    height:2px;
+
+
+
+    background:#C9A961;
+
+
+
+}
+
+
+
+.aavf2-footer ul{
+
+
+
+    margin:0;
+
+    padding:0;
+
+
+
+    list-style:none;
+
+
+
+}
+
+
+
+.aavf2-footer ul li{
+
+
+
+    margin-bottom:14px;
+
+
+
+}
+
+
+
+.aavf2-footer ul li:last-child{
+
+
+
+    margin-bottom:0;
+
+
+
+}
+
+
+
+.aavf2-footer ul li a{
+
+
+
+    color:#555;
+
+
+
+    text-decoration:none;
+
+
+
+    font-size:15px;
+
+
+
+    display:inline-flex;
+
+
+
+    align-items:center;
+
+
+
+    transition:.35s;
+
+
+
+    position:relative;
+
+
+
+}
+
+
+
+.aavf2-footer ul li a:before{
+
+
+
+    content:"";
+
+
+
+    width:6px;
+
+    height:6px;
+
+
+
+    border-radius:50%;
+
+
+
+    background:#C9A961;
+
+
+
+    margin-right:12px;
+
+
+
+    transition:.35s;
+
+
+
+}
+
+
+
+.aavf2-footer ul li a:hover{
+
+
+
+    color:#0B2545;
+
+
+
+    transform:translateX(6px);
+
+
+
+}
+
+
+
+.aavf2-footer ul li a:hover:before{
+
+
+
+    background:#0B2545;
+
+
+
+}
+
+
+
+/*==========================
+
+Spacing
+
+==========================*/
+
+
+
+.aavf2-footer .row:first-child{
+
+
+
+    padding-bottom:25px;
+
+
+
+}
+
+
+
+/*==========================
+
+Responsive
+
+==========================*/
+
+
+
+@media(max-width:1199px){
+
+
+
+.aavf2-brand{
+
+
+
+    padding-right:0;
+
+
+
+    margin-bottom:35px;
+
+
+
+}
+
+
+
+}
+
+
+
+@media(max-width:991px){
+
+
+
+.aavf2-footer{
+
+
+
+    padding-top:60px;
+
+
+
+}
+
+
+
+.aavf2-footer h4{
+
+
+
+    margin-top:15px;
+
+
+
+}
+
+
+
+}
+
+
+
+@media(max-width:767px){
+
+
+
+.aavf2-logo img{
+
+
+
+    max-width:220px;
+
+
+
+}
+
+
+
+.aavf2-footer{
+
+
+
+    text-align:center;
+
+
+
+}
+
+
+
+.aavf2-brand{
+
+
+
+    text-align:center;
+
+
+
+}
+
+
+
+.aavf2-contact a{
+
+
+
+    justify-content:center;
+
+
+
+}
+
+
+
+.aavf2-footer h4:after{
+
+
+
+    left:50%;
+
+
+
+    transform:translateX(-50%);
+
+
+
+}
+
+
+
+.aavf2-footer ul li a{
+
+
+
+    justify-content:center;
+
+
+
+}
+
+
+
+}
+
+.aavf1-footer{
+
+
+
+background:#081c37;
+
+
+
+color:#d8dee8;
+
+
+
+padding:90px 0 35px;
+
+
+
+position:relative;
+
+
+
+overflow:hidden;
+
+
+
+}
+
+
+
+.aavf1-footer:before{
+
+
+
+content:"";
+
+
+
+position:absolute;
+
+
+
+right:-200px;
+
+
+
+top:-180px;
+
+
+
+width:500px;
+
+
+
+height:500px;
+
+
+
+border-radius:50%;
+
+
+
+background:radial-gradient(circle,#c9a96118,transparent);
+
+
+
+pointer-events:none;
+
+
+
+}
+
+
+
+.aavf1-footer:after{
+
+
+
+content:"";
+
+
+
+position:absolute;
+
+
+
+left:-180px;
+
+
+
+bottom:-180px;
+
+
+
+width:420px;
+
+
+
+height:420px;
+
+
+
+border-radius:50%;
+
+
+
+background:radial-gradient(circle,#ffffff08,transparent);
+
+
+
+pointer-events:none;
+
+
+
+}
+
+
+
+.aavf1-footer .container{
+
+
+
+position:relative;
+
+
+
+z-index:2;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+LOGO
+
+====================================*/
+
+
+
+.aavf1-footer .logo-text{
+
+
+
+font-family:'Playfair Display',serif;
+
+
+
+font-size:34px;
+
+
+
+font-weight:700;
+
+
+
+color:#fff;
+
+
+
+text-decoration:none;
+
+
+
+line-height:1.25;
+
+
+
+display:block;
+
+
+
+}
+
+
+
+.aavf1-footer .logo-text:hover{
+
+
+
+color:#C9A961;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+TEXT
+
+====================================*/
+
+
+
+.aavf1-footer .footer-text{
+
+
+
+font-size:15px;
+
+
+
+line-height:1.95;
+
+
+
+color:#c7d1dd;
+
+
+
+margin-bottom:20px;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+CONTACT
+
+====================================*/
+
+
+
+.aavf1-footer .footer-contact{
+
+
+
+margin:0;
+
+
+
+padding:0;
+
+
+
+list-style:none;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-contact li{
+
+
+
+display:flex;
+
+
+
+align-items:flex-start;
+
+
+
+gap:14px;
+
+
+
+margin-bottom:18px;
+
+
+
+font-size:15px;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-contact i{
+
+
+
+width:38px;
+
+
+
+height:38px;
+
+
+
+border-radius:50%;
+
+
+
+display:flex;
+
+
+
+align-items:center;
+
+
+
+justify-content:center;
+
+
+
+background:#102c52;
+
+
+
+color:#C9A961;
+
+
+
+flex-shrink:0;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-contact a{
+
+
+
+color:#dbe2ea;
+
+
+
+text-decoration:none;
+
+
+
+transition:.3s;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-contact a:hover{
+
+
+
+color:#C9A961;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+HEADINGS
+
+====================================*/
+
+
+
+.aavf1-footer .footer-title{
+
+
+
+font-family:'Playfair Display',serif;
+
+
+
+font-size:22px;
+
+
+
+color:#fff;
+
+
+
+margin-bottom:24px;
+
+
+
+position:relative;
+
+
+
+padding-bottom:14px;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-title:after{
+
+
+
+content:"";
+
+
+
+position:absolute;
+
+
+
+left:0;
+
+
+
+bottom:0;
+
+
+
+width:55px;
+
+
+
+height:2px;
+
+
+
+background:#C9A961;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+LINKS
+
+====================================*/
+
+
+
+.aavf1-footer .footer-links{
+
+
+
+margin:0;
+
+
+
+padding:0;
+
+
+
+list-style:none;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-links li{
+
+
+
+margin-bottom:13px;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-links a{
+
+
+
+font-size:15px;
+
+
+
+color:#c7d1dd;
+
+
+
+text-decoration:none;
+
+
+
+transition:.3s;
+
+
+
+position:relative;
+
+
+
+padding-left:15px;
+
+
+
+display:inline-block;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-links a:before{
+
+
+
+content:"›";
+
+
+
+position:absolute;
+
+
+
+left:0;
+
+
+
+color:#C9A961;
+
+
+
+transition:.3s;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-links a:hover{
+
+
+
+color:#fff;
+
+
+
+padding-left:22px;
+
+
+
+}
+
+
+
+.aavf1-footer .footer-links a:hover:before{
+
+
+
+left:6px;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+NETWORK
+
+====================================*/
+
+
+
+.aavf1-network{
+
+
+
+margin-top:70px;
+
+
+
+padding:45px;
+
+
+
+background:#0c2749;
+
+
+
+border:1px solid rgba(255,255,255,.08);
+
+
+
+border-radius:12px;
+
+
+
+}
+
+
+
+.aavf1-network-title{
+
+
+
+text-align:center;
+
+
+
+margin-bottom:45px;
+
+
+
+}
+
+
+
+.aavf1-network-title span{
+
+
+
+display:inline-block;
+
+
+
+font-family:'Playfair Display',serif;
+
+
+
+font-size:34px;
+
+
+
+color:#fff;
+
+
+
+margin-bottom:18px;
+
+
+
+}
+
+
+
+.aavf1-network-title p{
+
+
+
+max-width:900px;
+
+
+
+margin:auto;
+
+
+
+font-size:16px;
+
+
+
+line-height:1.9;
+
+
+
+color:#c7d1dd;
+
+
+
+}
+
+
+
+.aavf1-network-box{
+
+
+
+height:100%;
+
+
+
+padding:25px;
+
+
+
+background:#102c52;
+
+
+
+border:1px solid rgba(255,255,255,.06);
+
+
+
+border-radius:10px;
+
+
+
+transition:.35s;
+
+
+
+}
+
+
+
+.aavf1-network-box:hover{
+
+
+
+transform:translateY(-6px);
+
+
+
+border-color:#C9A961;
+
+
+
+}
+
+
+
+.aavf1-network-box h6{
+
+
+
+font-size:16px;
+
+
+
+font-weight:700;
+
+
+
+letter-spacing:1px;
+
+
+
+text-transform:uppercase;
+
+
+
+margin-bottom:18px;
+
+
+
+color:#C9A961;
+
+
+
+}
+
+
+
+.aavf1-network-box ul{
+
+
+
+margin:0;
+
+
+
+padding:0;
+
+
+
+list-style:none;
+
+
+
+}
+
+
+
+.aavf1-network-box li{
+
+
+
+margin-bottom:10px;
+
+
+
+}
+
+
+
+.aavf1-network-box a{
+
+
+
+font-size:15px;
+
+
+
+color:#dce3ec;
+
+
+
+text-decoration:none;
+
+
+
+transition:.3s;
+
+
+
+}
+
+
+
+.aavf1-network-box a:hover{
+
+
+
+color:#fff;
+
+
+
+padding-left:6px;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+POPULAR SEARCHES
+
+====================================*/
+
+
+
+.aavf1-popular{
+
+
+
+margin-top:55px;
+
+
+
+text-align:center;
+
+
+
+}
+
+
+
+.aavf1-popular h4{
+
+
+
+font-family:'Playfair Display',serif;
+
+
+
+font-size:34px;
+
+
+
+color:#fff;
+
+
+
+margin-bottom:30px;
+
+
+
+}
+
+
+
+.aavf1-tags{
+
+
+
+display:flex;
+
+
+
+flex-wrap:wrap;
+
+
+
+justify-content:center;
+
+
+
+gap:12px;
+
+
+
+}
+
+
+
+.aavf1-tags a{
+
+
+
+padding:10px 18px;
+
+
+
+background:#102c52;
+
+
+
+border:1px solid rgba(255,255,255,.08);
+
+
+
+border-radius:30px;
+
+
+
+font-size:14px;
+
+
+
+text-decoration:none;
+
+
+
+color:#d6dee8;
+
+
+
+transition:.3s;
+
+
+
+}
+
+
+
+.aavf1-tags a:hover{
+
+
+
+background:#C9A961;
+
+
+
+border-color:#C9A961;
+
+
+
+color:#081c37;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+DIVIDER
+
+====================================*/
+
+
+
+.footer-divider{
+
+
+
+border-color:rgba(255,255,255,.08);
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+BOTTOM
+
+====================================*/
+
+
+
+.footer-bottom{
+
+
+
+font-size:15px;
+
+
+
+color:#c7d1dd;
+
+
+
+}
+
+
+
+.footer-bottom a{
+
+
+
+color:#C9A961;
+
+
+
+text-decoration:none;
+
+
+
+}
+
+
+
+.footer-bottom a:hover{
+
+
+
+color:#fff;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+SOCIAL
+
+====================================*/
+
+
+
+.footer-social{
+
+
+
+display:flex;
+
+
+
+gap:15px;
+
+
+
+}
+
+
+
+.footer-social a{
+
+
+
+width:46px;
+
+
+
+height:46px;
+
+
+
+display:flex;
+
+
+
+align-items:center;
+
+
+
+justify-content:center;
+
+
+
+border-radius:50%;
+
+
+
+background:#102c52;
+
+
+
+color:#fff;
+
+
+
+text-decoration:none;
+
+
+
+transition:.35s;
+
+
+
+font-size:18px;
+
+
+
+}
+
+
+
+.footer-social a:hover{
+
+
+
+background:#C9A961;
+
+
+
+color:#081c37;
+
+
+
+transform:translateY(-5px);
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+RESPONSIVE
+
+====================================*/
+
+
+
+@media(max-width:991px){
+
+
+
+.aavf1-footer{
+
+
+
+padding:70px 0 30px;
+
+
+
+}
+
+
+
+.aavf1-footer .logo-text{
+
+
+
+font-size:28px;
+
+
+
+}
+
+
+
+.aavf1-network{
+
+
+
+padding:30px;
+
+
+
+}
+
+
+
+.aavf1-network-title span{
+
+
+
+font-size:28px;
+
+
+
+}
+
+
+
+.aavf1-popular h4{
+
+
+
+font-size:28px;
+
+
+
+}
+
+
+
+.footer-bottom{
+
+
+
+text-align:center;
+
+
+
+}
+
+
+
+.footer-social{
+
+
+
+justify-content:center;
+
+
+
+margin-top:20px;
+
+
+
+}
+
+
+
+}
+
+
+
+@media(max-width:767px){
+
+
+
+.aavf1-footer .footer-title{
+
+
+
+margin-top:25px;
+
+
+
+}
+
+
+
+.aavf1-network{
+
+
+
+padding:25px;
+
+
+
+}
+
+
+
+.aavf1-network-title span{
+
+
+
+font-size:24px;
+
+
+
+}
+
+
+
+.aavf1-tags{
+
+
+
+gap:10px;
+
+
+
+}
+
+
+
+.aavf1-tags a{
+
+
+
+font-size:13px;
+
+
+
+padding:9px 15px;
+
+
+
+}
+
+
+
+}
+
+
+
+/*=====================================
+
+SPECIALIST STRIP
+
+=====================================*/
+
+
+
+.aavf2-specialist{
+
+
+
+margin:55px 0 45px;
+
+
+
+}
+
+
+
+.aavf2-divider{
+
+
+
+position:relative;
+
+
+
+text-align:center;
+
+
+
+margin-bottom:28px;
+
+
+
+}
+
+
+
+.aavf2-divider:before{
+
+
+
+content:"";
+
+
+
+position:absolute;
+
+
+
+left:0;
+
+
+
+top:50%;
+
+
+
+width:100%;
+
+
+
+height:1px;
+
+
+
+background:#e5d8c3;
+
+
+
+}
+
+
+
+.aavf2-divider span{
+
+
+
+position:relative;
+
+
+
+display:inline-block;
+
+
+
+padding:0 30px;
+
+
+
+background:#faf8f3;
+
+
+
+font-family:'Playfair Display',serif;
+
+
+
+font-size:24px;
+
+
+
+font-weight:600;
+
+
+
+color:#0B2545;
+
+
+
+}
+
+
+
+.aavf2-special-links{
+
+
+
+display:flex;
+
+
+
+justify-content:center;
+
+
+
+flex-wrap:wrap;
+
+
+
+gap:12px;
+
+
+
+}
+
+
+
+.aavf2-special-links a{
+
+
+
+padding:9px 18px;
+
+
+
+border:1px solid #e3d7c6;
+
+
+
+border-radius:30px;
+
+
+
+background:#fff;
+
+
+
+font-size:14px;
+
+
+
+text-decoration:none;
+
+
+
+color:#0B2545;
+
+
+
+transition:.35s;
+
+
+
+}
+
+
+
+.aavf2-special-links a:hover{
+
+
+
+background:#0B2545;
+
+
+
+border-color:#0B2545;
+
+
+
+color:#fff;
+
+
+
+}
+
+
+
+/*====================================
+
+NETWORK
+
+====================================*/
+
+
+
+.aavf2-network{
+
+
+
+padding:40px 0;
+
+
+
+border-top:1px solid #e6dbc7;
+
+
+
+border-bottom:1px solid #e6dbc7;
+
+
+
+margin-bottom:45px;
+
+
+
+}
+
+
+
+.aavf2-network-desc{
+
+
+
+max-width:760px;
+
+
+
+margin:18px auto 40px;
+
+
+
+text-align:center;
+
+
+
+font-size:15px;
+
+
+
+line-height:1.8;
+
+
+
+color:#666;
+
+
+
+}
+
+
+
+.aavf2-col{
+
+
+
+padding: 0 5px;
+
+
+
+
+
+border-right:1px solid #eadfce;
+
+
+
+height:100%;
+
+
+
+}
+
+
+
+.aavf2-last{
+
+
+
+border-right:none;
+
+
+
+}
+
+
+
+.aavf2-col h5{
+
+
+
+font-family:'Playfair Display',serif;
+
+
+
+font-size:20px;
+
+
+
+margin-bottom:18px;
+
+
+
+color:#0B2545;
+
+
+
+}
+
+
+
+.aavf2-col h5 i{
+
+
+
+margin-right:10px;
+
+
+
+color:#C9A961;
+
+
+
+font-size:18px;
+
+
+
+}
+
+
+
+.aavf2-col ul{
+
+
+
+padding:0;
+
+
+
+margin:0;
+
+
+
+list-style:none;
+
+
+
+}
+
+
+
+.aavf2-col li{
+
+
+
+margin-bottom:11px;
+
+
+
+}
+
+
+
+.aavf2-col a{
+
+
+
+font-size:14px;
+
+
+
+text-decoration:none;
+
+
+
+color:#444;
+
+
+
+transition:.3s;
+
+
+
+}
+
+
+
+.aavf2-col a:hover{
+
+
+
+padding-left:6px;
+
+
+
+color:#C9A961;
+
+
+
+}
+
+
+
+@media(max-width:991px){
+
+
+
+.aavf2-col{
+
+
+
+padding:25px 0;
+
+
+
+border-right:none;
+
+
+
+border-bottom:1px solid #eee;
+
+
+
+}
+
+
+
+.aavf2-last{
+
+
+
+border-bottom:none;
+
+
+
+}
+
+
+
+}
+
+
+
+/*====================================
+
+POPULAR SEARCHES
+
+====================================*/
+
+
+
+.aavf2-searches{
+
+
+
+padding:20px 0 35px;
+
+
+
+}
+
+
+
+.aavf2-keywords{
+
+
+
+display:flex;
+
+
+
+justify-content:center;
+
+
+
+flex-wrap:wrap;
+
+
+
+gap:10px;
+
+
+
+margin-top:25px;
+
+
+
+}
+
+
+
+.aavf2-keywords a{
+
+
+
+padding:8px 16px;
+
+
+
+background:#fff;
+
+
+
+border:1px solid #e4d8c5;
+
+
+
+border-radius:30px;
+
+
+
+font-size:13px;
+
+
+
+text-decoration:none;
+
+
+
+color:#555;
+
+
+
+transition:.35s;
+
+
+
+}
+
+
+
+.aavf2-keywords a:hover{
+
+
+
+background:#0B2545;
+
+
+
+color:#fff;
+
+
+
+border-color:#0B2545;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+BOTTOM
+
+====================================*/
+
+
+
+.aavf2-bottom{
+
+
+
+margin-top:40px;
+
+
+
+padding-top:30px;
+
+
+
+border-top:1px solid #e6dbc8;
+
+
+
+}
+
+
+
+.aavf2-bottom p{
+
+
+
+margin:0;
+
+
+
+font-size:14px;
+
+
+
+color:#666;
+
+
+
+line-height:1.9;
+
+
+
+}
+
+
+
+.aavf2-bottom p span{
+
+
+
+margin:0 10px;
+
+
+
+color:#bbb;
+
+
+
+}
+
+
+
+.aavf2-bottom a{
+
+
+
+color:#0B2545;
+
+
+
+text-decoration:none;
+
+
+
+font-weight:500;
+
+
+
+}
+
+
+
+.aavf2-bottom a:hover{
+
+
+
+color:#C9A961;
+
+
+
+}
+
+
+
+.aavf2-credit{
+
+
+
+margin-top:6px !important;
+
+
+
+font-size:13px !important;
+
+
+
+color:#888 !important;
+
+
+
+}
+
+
+
+
+
+/*====================================
+
+SOCIAL
+
+====================================*/
+
+
+
+.aavf2-social{
+
+
+
+display:flex;
+
+
+
+justify-content:flex-end;
+
+
+
+gap:12px;
+
+
+
+}
+
+
+
+.aavf2-social a{
+
+
+
+width:42px;
+
+
+
+height:42px;
+
+
+
+display:flex;
+
+
+
+align-items:center;
+
+
+
+justify-content:center;
+
+
+
+border-radius:50%;
+
+
+
+background:#fff;
+
+
+
+border:1px solid #e5d9c7;
+
+
+
+color:#0B2545;
+
+
+
+text-decoration:none;
+
+
+
+transition:.35s;
+
+
+
+}
+
+
+
+.aavf2-social a:hover{
+
+
+
+background:#0B2545;
+
+
+
+color:#fff;
+
+
+
+border-color:#0B2545;
+
+
+
+transform:translateY(-3px);
+
+
+
+}
+
+
+
+@media(max-width:991px){
+
+
+
+.aavf2-bottom{
+
+
+
+text-align:center;
+
+
+
+}
+
+
+
+.aavf2-social{
+
+
+
+justify-content:center;
+
+
+
+margin-top:20px;
+
+
+
+}
+
+
+
+}
+
+/* =========================================================
+
+   GAV FOOTER NETWORK
+
+   SEAMLESS WARM BACKGROUND
+
+========================================================= */
+
+
+
+.gavFooterNetwork{
+
+
+
+    position:relative;
+
+
+
+    overflow:hidden;
+
+
+
+    /*padding:85px 0;*/
+
+
+
+    background:#faf8f3;
+
+
+
+    color:#0b2550;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   REMOVE PANEL / WHITE BOX EFFECT
+
+========================================================= */
+
+
+
+.gavFooterNetwork .container{
+
+
+
+    position:relative;
+
+
+
+    z-index:2;
+
+
+
+    background:transparent !important;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   DECORATIVE CIRCLES
+
+========================================================= */
+
+
+
+.gavFooterNetwork::before{
+
+
+
+    content:"";
+
+
+
+    position:absolute;
+
+
+
+    width:520px;
+
+    height:520px;
+
+
+
+    top:-300px;
+
+    right:-180px;
+
+
+
+    border:1px solid rgba(184,135,35,.10);
+
+
+
+    border-radius:50%;
+
+
+
+    pointer-events:none;
+
+
+
+}
+
+
+
+.gavFooterNetwork::after{
+
+
+
+    content:"";
+
+
+
+    position:absolute;
+
+
+
+    width:360px;
+
+    height:360px;
+
+
+
+    bottom:-250px;
+
+    left:-180px;
+
+
+
+    border:1px solid rgba(11,37,80,.055);
+
+
+
+    border-radius:50%;
+
+
+
+    pointer-events:none;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   MAIN WRAPPER
+
+========================================================= */
+
+
+
+.gavFooterNetworkWrapper{
+
+
+
+    position:relative;
+
+
+
+    z-index:3;
+
+
+
+    display:grid;
+
+
+
+    grid-template-columns:.95fr 1.05fr;
+
+
+
+    gap:70px;
+
+
+
+    align-items:center;
+
+
+
+    background:transparent;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   LEFT CONTENT
+
+========================================================= */
+
+
+
+.gavFooterNetworkIntro{
+
+
+
+    max-width:570px;
+
+
+
+}
+
+
+
+.gavFooterNetworkEyebrow{
+
+
+
+    display: block;
+
+    margin-bottom: 14px;
+
+    color: #b88723;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    letter-spacing: 2.2px;
+
+
+
+}
+
+
+
+.gavFooterNetworkIntro h2{
+
+
+
+    margin:0 0 20px;
+
+
+
+    color:#0b2550;
+
+
+
+    font-family:'Cormorant Garamond',serif;
+
+
+
+    font-size:50px;
+
+
+
+    line-height:1.06;
+
+
+
+    font-weight:600;
+
+
+
+}
+
+
+
+.gavFooterNetworkIntro h2 strong{
+
+
+
+    display:block;
+
+
+
+    color:#b88723;
+
+
+
+}
+
+
+
+.gavFooterNetworkIntro p{
+
+
+
+    margin:0;
+
+
+
+    color:#586575;
+
+
+
+    font-size:15px;
+
+
+
+    line-height:1.9;
+
+
+
+}
+
+
+
+.gavFooterNetworkIntro p strong{
+
+
+
+    color:#0b2550;
+
+
+
+    font-weight:700;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   CTA
+
+========================================================= */
+
+
+
+.gavFooterNetworkCTA{
+
+
+
+    display:inline-flex;
+
+
+
+    align-items:center;
+
+
+
+    justify-content:space-between;
+
+
+
+    gap:18px;
+
+
+
+    margin-top:28px;
+
+
+
+    min-width:390px;
+
+
+
+    padding:14px 16px 14px 20px;
+
+
+
+    border:1px solid #d7bc79;
+
+
+
+    border-radius:10px;
+
+
+
+    background:transparent;
+
+
+
+    color:#0b2550;
+
+
+
+    font-size:15px;
+
+
+
+    font-weight:700;
+
+
+
+    text-decoration:none;
+
+
+
+    transition:.3s ease;
+
+
+
+}
+
+
+
+.gavFooterNetworkCTA span{
+
+
+
+    display:flex;
+
+
+
+    align-items:center;
+
+
+
+    justify-content:center;
+
+
+
+    width:32px;
+
+
+
+    height:32px;
+
+
+
+    flex:0 0 32px;
+
+
+
+    border-radius:50%;
+
+
+
+    background:#b88723;
+
+
+
+    color:#fff;
+
+
+
+    font-size:17px;
+
+
+
+    transition:.3s ease;
+
+
+
+}
+
+
+
+.gavFooterNetworkCTA:hover{
+
+
+
+    background:#0b2550;
+
+
+
+    border-color:#0b2550;
+
+
+
+    color:#fff;
+
+
+
+}
+
+
+
+.gavFooterNetworkCTA:hover span{
+
+
+
+    background:#b88723;
+
+
+
+    color:#fff;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   RIGHT NETWORK
+
+========================================================= */
+
+
+
+.gavFooterNetworkLinks{
+
+
+
+    min-width:0;
+
+
+
+}
+
+
+
+.gavFooterNetworkTitle{
+
+
+
+    margin-bottom:23px;
+
+
+
+}
+
+
+
+.gavFooterNetworkTitle > span{
+
+    color: #b88723;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+
+
+}
+
+
+
+.gavFooterNetworkTitle h3{
+
+
+
+    margin:7px 0 0;
+
+
+
+    color:#0b2550;
+
+
+
+    font-family:'Cormorant Garamond',serif;
+
+
+
+    font-size:32px;
+
+
+
+    line-height:1.15;
+
+
+
+}
+
+
+
+.gavFooterNetworkTitle h3 strong{
+
+
+
+    color:#b88723;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   NETWORK GRID
+
+========================================================= */
+
+
+
+.gavFooterNetworkGrid{
+
+
+
+    display:grid;
+
+
+
+    grid-template-columns:repeat(2,1fr);
+
+
+
+    gap:12px;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   NETWORK CARD
+
+========================================================= */
+
+
+
+.gavFooterNetworkCard{
+
+
+
+    position:relative;
+
+
+
+    display:flex;
+
+
+
+    align-items:center;
+
+
+
+    gap:13px;
+
+
+
+    min-width:0;
+
+
+
+    padding:15px;
+
+
+
+    background:rgba(255,255,255,.55);
+
+
+
+    border:1px solid #e0e3e6;
+
+
+
+    border-radius:11px;
+
+
+
+    text-decoration:none;
+
+
+
+    transition:.3s ease;
+
+
+
+}
+
+
+
+.gavFooterNetworkCard:hover{
+
+
+
+    transform:translateY(-3px);
+
+
+
+    background:#ffffff;
+
+
+
+    border-color:#c9a95f;
+
+
+
+    box-shadow:
+
+        0 10px 25px rgba(11,37,80,.07);
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   ICON
+
+========================================================= */
+
+
+
+.gavFooterNetworkIcon{
+
+
+
+    width:42px;
+
+
+
+    height:42px;
+
+
+
+    flex:0 0 42px;
+
+
+
+    display:flex;
+
+
+
+    align-items:center;
+
+
+
+    justify-content:center;
+
+
+
+    border-radius:9px;
+
+
+
+    background:#0b2550;
+
+
+
+    color:#d5a646;
+
+
+
+    font-size:10px;
+
+
+
+    font-weight:900;
+
+
+
+    letter-spacing:.3px;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   CARD TEXT
+
+========================================================= */
+
+
+
+.gavFooterNetworkCardContent{
+
+
+
+    display:flex;
+
+
+
+    flex-direction:column;
+
+
+
+    min-width:0;
+
+
+
+    flex:1;
+
+
+
+}
+
+
+
+.gavFooterNetworkCardContent strong{
+
+
+
+    overflow:hidden;
+
+
+
+    color:#0b2550;
+
+
+
+    font-size:13px;
+
+
+
+    line-height:1.4;
+
+
+
+    text-overflow:ellipsis;
+
+
+
+}
+
+
+
+.gavFooterNetworkCardContent small{
+
+
+
+    margin-top:4px;
+
+
+
+    overflow:hidden;
+
+
+
+    color:#737d89;
+
+
+
+    font-size:10px;
+
+
+
+    line-height:1.3;
+
+
+
+    text-overflow:ellipsis;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   ARROW
+
+========================================================= */
+
+
+
+.gavFooterNetworkArrow{
+
+
+
+    flex:0 0 auto;
+
+
+
+    color:#b88723;
+
+
+
+    font-size:17px;
+
+
+
+    transition:.3s ease;
+
+
+
+}
+
+
+
+.gavFooterNetworkCard:hover
+
+.gavFooterNetworkArrow{
+
+
+
+    transform:translateX(4px);
+
+
+
+    color:#0b2550;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   TABLET
+
+========================================================= */
+
+
+
+@media(max-width:991px){
+
+
+
+    .gavFooterNetworkWrapper{
+
+
+
+        grid-template-columns:1fr;
+
+
+
+        gap:50px;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkIntro{
+
+
+
+        max-width:800px;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   MOBILE
+
+========================================================= */
+
+
+
+@media(max-width:767px){
+
+
+
+    .gavFooterNetwork{
+
+
+
+        padding:65px 0;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkIntro h2{
+
+
+
+        font-size:40px;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkIntro p{
+
+
+
+        font-size:14px;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkCTA{
+
+
+
+        min-width:0;
+
+
+
+        width:100%;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkGrid{
+
+
+
+        grid-template-columns:1fr;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkTitle h3{
+
+
+
+        font-size:29px;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkCardContent strong{
+
+
+
+        font-size:13px;
+
+
+
+    }
+
+
+
+    .gavFooterNetworkCardContent small{
+
+
+
+        font-size:10px;
+
+
+
+    }
+
+
+
+}
+
+/* =========================================================
+   WEALTH TAX FOOTER NETWORK
+   UNIQUE CSS PREFIX: wtvFooterNetwork
+========================================================= */
+
+.wtvFooterNetwork{
+
+    position:relative;
+
+    padding:75px 0;
+
+    background:#f7f4ed;
+
+    overflow:hidden;
+
+}
+
+.wtvFooterNetwork::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+    height:520px;
+
+    right:-270px;
+    top:-270px;
+
+    border:1px solid rgba(184,135,35,.14);
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+}
+
+.wtvFooterNetwork::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    left:-180px;
+    bottom:-180px;
+
+    border:1px solid rgba(11,37,80,.08);
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+}
+
+
+.wtvFooterNetworkWrapper{
+
+    position:relative;
+
+    z-index:2;
+
+    display:grid;
+
+    grid-template-columns:minmax(0,1fr) minmax(450px,1fr);
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+
+/* =========================================================
+   LEFT INTRO
+========================================================= */
+
+.wtvFooterNetworkIntro{
+
+    max-width:720px;
+
+}
+
+.wtvFooterNetworkEyebrow{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:18px;
+
+    color:#b88723;
+
+    font-size:15px;
+
+    line-height:1.3;
+
+    font-weight:800;
+
+    letter-spacing:1.8px;
+
+}
+
+.wtvFooterNetworkEyebrow::before{
+
+    content:"";
+
+    width:42px;
+
+    height:2px;
+
+    background:#b88723;
+
+}
+
+
+.wtvFooterNetworkIntro h2{
+
+    margin:0 0 22px;
+
+    color:#0b2550;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:48px;
+
+    line-height:1.05;
+
+    font-weight:600;
+
+}
+
+.wtvFooterNetworkIntro h2 strong{
+
+    color:#b88723;
+
+}
+
+
+.wtvFooterNetworkIntro p{
+
+    max-width:680px;
+
+    margin:0 0 28px;
+
+    color:#687583;
+
+    font-size:15px;
+
+    line-height:1.85;
+
+}
+
+.wtvFooterNetworkIntro p strong{
+
+    color:#0b2550;
+
+    font-weight:800;
+
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.wtvFooterNetworkCTA{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+    min-height:62px;
+
+    padding:0 10px 0 22px;
+
+    background:#0b2550;
+
+    border:2px solid #0b2550;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    line-height:1.3;
+
+    font-weight:800;
+
+    transition:.35s ease;
+
+}
+
+.wtvFooterNetworkCTA span{
+
+    width:42px;
+    height:42px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#b88723;
+
+    color:#0b2550;
+
+    font-size:22px;
+
+    transition:.35s ease;
+
+}
+
+.wtvFooterNetworkCTA:hover{
+
+    background:#b88723;
+
+    border-color:#b88723;
+
+    color:#0b2550;
+
+    transform:translateY(-3px);
+
+}
+
+.wtvFooterNetworkCTA:hover span{
+
+    background:#fff;
+
+}
+
+
+/* =========================================================
+   RIGHT NETWORK
+========================================================= */
+
+.wtvFooterNetworkLinks{
+
+    width:100%;
+
+}
+
+
+.wtvFooterNetworkTitle{
+
+    margin-bottom:25px;
+
+}
+
+.wtvFooterNetworkTitle > span{
+
+    display:block;
+
+    margin-bottom:9px;
+
+    color:#b88723;
+
+    font-size:15px;
+
+    line-height:1.3;
+
+    font-weight:800;
+
+    letter-spacing:1.7px;
+
+}
+
+.wtvFooterNetworkTitle h3{
+
+    margin:0;
+
+    color:#0b2550;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:34px;
+
+    line-height:1.1;
+
+    font-weight:600;
+
+}
+
+.wtvFooterNetworkTitle h3 strong{
+
+    color:#b88723;
+
+}
+
+
+/* =========================================================
+   NETWORK GRID
+========================================================= */
+
+.wtvFooterNetworkGrid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:14px;
+
+}
+
+
+.wtvFooterNetworkCard{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    min-height:94px;
+
+    padding:13px 15px;
+
+    background:#fff;
+
+    border:1px solid #d9dfe7;
+
+    border-radius:13px;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+.wtvFooterNetworkCard:hover{
+
+    border-color:#b88723;
+
+    box-shadow:0 14px 30px rgba(11,37,80,.09);
+
+    transform:translateY(-3px);
+
+}
+
+
+/* ICON */
+
+.wtvFooterNetworkIcon{
+
+    width:54px;
+    height:54px;
+
+    flex:0 0 54px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    background:#0b2550;
+
+    border-radius:11px;
+
+    color:#d5a646;
+
+    font-size:15px;
+
+    line-height:1;
+
+    font-weight:900;
+
+    letter-spacing:.3px;
+
+}
+
+
+/* CARD CONTENT */
+
+.wtvFooterNetworkCardContent{
+
+    min-width:0;
+
+    flex:1;
+
+}
+
+.wtvFooterNetworkCardContent strong{
+
+    display:block;
+
+    margin-bottom:5px;
+
+    color:#0b2550;
+
+    font-size:16px;
+
+    line-height:1.3;
+
+    font-weight:800;
+
+}
+
+.wtvFooterNetworkCardContent small{
+
+    display:block;
+
+    overflow:hidden;
+
+    color:#7a8795;
+
+    font-size:15px;
+
+    line-height:1.3;
+
+    white-space:nowrap;
+
+    text-overflow:ellipsis;
+
+}
+
+
+/* ARROW */
+
+.wtvFooterNetworkArrow{
+
+    flex:0 0 auto;
+
+    color:#b88723;
+
+    font-size:22px;
+
+    line-height:1;
+
+    transition:.3s ease;
+
+}
+
+.wtvFooterNetworkCard:hover .wtvFooterNetworkArrow{
+
+    transform:translateX(5px);
+
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1100px){
+
+    .wtvFooterNetworkWrapper{
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+    }
+
+    .wtvFooterNetworkIntro{
+
+        max-width:850px;
+
+    }
+
+}
+
+
+@media(max-width:767px){
+
+    .wtvFooterNetwork{
+
+        padding:60px 0;
+
+    }
+
+    .wtvFooterNetworkIntro h2{
+
+        font-size:40px;
+
+    }
+
+    .wtvFooterNetworkIntro p{
+
+        font-size:15px;
+
+        line-height:1.8;
+
+    }
+
+    .wtvFooterNetworkTitle h3{
+
+        font-size:30px;
+
+    }
+
+    .wtvFooterNetworkGrid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .wtvFooterNetworkCard{
+
+        min-height:88px;
+
+    }
+
+    .wtvFooterNetworkCTA{
+
+        width:100%;
+
+        justify-content:space-between;
+
+    }
+
+}
+
+
+@media(max-width:420px){
+
+    .wtvFooterNetworkIntro h2{
+
+        font-size:36px;
+
+    }
+
+    .wtvFooterNetworkTitle h3{
+
+        font-size:27px;
+
+    }
+
+    .wtvFooterNetworkCardContent strong{
+
+        font-size:15px;
+
+    }
+
+    .wtvFooterNetworkCardContent small{
+
+        font-size:15px;
+
+    }
+
+}

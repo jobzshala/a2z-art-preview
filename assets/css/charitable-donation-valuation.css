@@ -1,0 +1,1237 @@
+/*==============================================
+
+WHY ACRYLIC
+
+PART 1
+
+Prefix : apv12-
+
+==============================================*/
+.apv3-breadcrumb{
+
+    padding:18px 0;
+
+    background:#F8F5EF;
+
+    border-bottom:1px solid #ECE4D3;
+
+}
+
+.apv3-breadcrumb ul{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px 14px;
+
+    padding:0;
+
+    margin:0;
+
+    list-style:none;
+
+    align-items:center;
+
+}
+
+.apv3-breadcrumb li{
+
+    font-size:15px;
+
+    color:#666;
+
+    white-space:nowrap;
+
+}
+
+.apv3-breadcrumb li a{
+
+    color:#0B2545;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.apv3-breadcrumb li:not(:last-child):after{
+
+    content:"/";
+
+    margin-left:14px;
+
+    color:#C9A961;
+
+}
+
+/*******************************
+Responsive
+********************************/
+
+@media (max-width:767px){
+
+    .apv3-breadcrumb{
+
+        padding:12px 0;
+
+    }
+
+    .apv3-breadcrumb ul{
+
+        gap:6px 10px;
+
+    }
+
+    .apv3-breadcrumb li{
+
+        font-size:13px;
+
+    }
+
+    .apv3-breadcrumb li:not(:last-child):after{
+
+        margin-left:10px;
+
+    }
+
+}
+
+/*--------------------- PAGE CSS-------------*/
+/*=========================================
+CHARITABLE DONATION HERO
+Prefix : apv120-
+=========================================*/
+
+.apv120-hero{
+
+padding:55px 0;
+
+background:#FCFBF8;
+
+}
+
+.apv120-badge{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:8px 18px;
+
+border:1px solid #E8DECB;
+
+border-radius:30px;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#C9A961;
+
+margin-bottom:18px;
+
+}
+
+.apv120-badge i{
+
+font-size:15px;
+
+}
+
+.apv120-hero h1{
+
+font-family:'Playfair Display',serif;
+
+font-size:50px;
+
+line-height:1.08;
+
+margin-bottom:15px;
+
+color:#0B2545;
+
+}
+
+.apv120-hero h1 span{
+
+display:block;
+
+color:#C9A961;
+
+}
+
+.apv120-divider{
+
+width:80px;
+
+height:3px;
+
+background:#C9A961;
+
+margin:18px 0;
+
+}
+
+.apv120-hero p{
+
+font-size:16px;
+
+line-height:1.85;
+
+color:#666;
+
+margin-bottom:20px;
+
+}
+
+.apv120-tags{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+.apv120-tags span{
+
+display:flex;
+
+align-items:center;
+
+gap:8px;
+
+padding:10px 14px;
+
+background:#fff;
+
+border:1px solid #ECE4D3;
+
+font-size:13px;
+
+font-weight:600;
+
+color:#0B2545;
+
+transition:.3s;
+
+}
+
+.apv120-tags span:hover{
+
+border-color:#C9A961;
+
+background:#FCFBF8;
+
+}
+
+.apv120-tags i{
+
+color:#C9A961;
+
+}
+
+/**********************************/
+
+.apv120-certificate{
+
+background:#fff;
+
+border:1px solid #E8DFCC;
+
+box-shadow:0 12px 35px rgba(0,0,0,.05);
+
+overflow:hidden;
+
+}
+
+.apv120-head{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:15px 20px;
+
+background:#0B2545;
+
+color:#fff;
+
+font-size:11px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+text-transform:uppercase;
+
+}
+
+.apv120-body{
+
+padding:28px;
+
+text-align:center;
+
+}
+
+.apv120-icon{
+
+width:70px;
+
+height:70px;
+
+margin:auto;
+
+margin-bottom:18px;
+
+border-radius:50%;
+
+background:#0B2545;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+.apv120-icon i{
+
+font-size:28px;
+
+color:#C9A961;
+
+}
+
+.apv120-body h3{
+
+font-family:'Playfair Display',serif;
+
+font-size:30px;
+
+line-height:1.25;
+
+margin-bottom:22px;
+
+color:#0B2545;
+
+}
+
+.apv120-list{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:10px;
+
+}
+
+.apv120-list div{
+
+padding:10px;
+
+background:#FCFBF8;
+
+border:1px solid #ECE4D3;
+
+font-size:13px;
+
+font-weight:600;
+
+color:#0B2545;
+
+}
+
+.apv120-foot{
+
+padding:15px;
+
+background:#FCFBF8;
+
+border-top:1px solid #ECE4D3;
+
+text-align:center;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#0B2545;
+
+}
+
+/**********************************/
+
+@media(max-width:991px){
+
+.apv120-hero{
+
+padding:40px 0;
+
+}
+
+.apv120-hero h1{
+
+font-size:36px;
+
+}
+
+.apv120-certificate{
+
+margin-top:20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.apv120-hero{
+
+padding:30px 0;
+
+}
+
+.apv120-hero h1{
+
+font-size:30px;
+
+}
+
+.apv120-hero p{
+
+font-size:15px;
+
+}
+
+.apv120-list{
+
+grid-template-columns:1fr;
+
+}
+
+.apv120-head{
+
+flex-direction:column;
+
+gap:4px;
+
+text-align:center;
+
+}
+
+.apv120-tags{
+
+flex-direction:column;
+
+}
+
+.apv120-tags span{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+}
+
+/*======================================
+DONATION REPORT
+Prefix : apv121-
+=======================================*/
+
+.apv121-wrap{
+
+padding:55px 0;
+
+background:#fff;
+
+}
+
+.apv121-head{
+
+margin-bottom:28px;
+
+}
+
+.apv121-head span{
+
+display:inline-block;
+
+padding:8px 18px;
+
+border:1px solid #E8DECB;
+
+border-radius:30px;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#C9A961;
+
+margin-bottom:14px;
+
+}
+
+.apv121-head h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:36px;
+
+margin:0;
+
+color:#0B2545;
+
+}
+
+/****************************************/
+
+.apv121-report{
+
+border:1px solid #ECE4D3;
+
+background:#fff;
+
+}
+
+.apv121-title{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:16px 22px;
+
+background:#0B2545;
+
+color:#fff;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+}
+
+.apv121-title div:first-child{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
+.apv121-title i{
+
+color:#C9A961;
+
+font-size:18px;
+
+}
+
+/****************************************/
+
+.apv121-row{
+
+display:grid;
+
+grid-template-columns:55px 1fr;
+
+gap:18px;
+
+padding:18px 22px;
+
+border-bottom:1px solid #ECE4D3;
+
+transition:.3s;
+
+align-items:start;
+
+}
+
+.apv121-row:last-child{
+
+border-bottom:none;
+
+}
+
+.apv121-row:hover{
+
+background:#FCFBF8;
+
+}
+
+.apv121-no{
+
+width:40px;
+
+height:40px;
+
+background:#0B2545;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-family:'Playfair Display',serif;
+
+font-size:16px;
+
+color:#fff;
+
+}
+
+.apv121-content h3{
+
+margin:0 0 6px;
+
+font-family:'Playfair Display',serif;
+
+font-size:22px;
+
+color:#0B2545;
+
+}
+
+.apv121-content p{
+
+margin:0;
+
+font-size:15px;
+
+line-height:1.8;
+
+color:#666;
+
+}
+
+/****************************************/
+
+@media(max-width:768px){
+
+.apv121-wrap{
+
+padding:40px 0;
+
+}
+
+.apv121-head h2{
+
+font-size:28px;
+
+}
+
+.apv121-title{
+
+flex-direction:column;
+
+gap:6px;
+
+text-align:center;
+
+}
+
+.apv121-row{
+
+grid-template-columns:1fr;
+
+gap:12px;
+
+padding:18px;
+
+}
+
+.apv121-no{
+
+margin-bottom:6px;
+
+}
+
+.apv121-content h3{
+
+font-size:20px;
+
+}
+
+.apv121-content p{
+
+font-size:14px;
+
+}
+
+}
+
+/*=====================================
+DONATION JOURNEY
+Prefix : apv122-
+=====================================*/
+
+.apv122-wrap{
+
+padding:50px 0;
+
+background:#FCFBF8;
+
+}
+
+.apv122-head{
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+.apv122-head span{
+
+display:inline-block;
+
+padding:8px 18px;
+
+border:1px solid #E8DECB;
+
+border-radius:30px;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#C9A961;
+
+margin-bottom:15px;
+
+}
+
+.apv122-head h2{
+
+margin:0;
+
+font-family:'Playfair Display',serif;
+
+font-size:34px;
+
+color:#0B2545;
+
+}
+
+.apv122-flow{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+flex-wrap:wrap;
+
+}
+
+.apv122-step{
+
+width:180px;
+
+padding:18px;
+
+background:#fff;
+
+border:1px solid #ECE4D3;
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.apv122-step:hover{
+
+border-color:#C9A961;
+
+transform:translateY(-4px);
+
+}
+
+.apv122-icon{
+
+width:58px;
+
+height:58px;
+
+margin:auto;
+
+margin-bottom:14px;
+
+border-radius:50%;
+
+background:#0B2545;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+.apv122-icon i{
+
+font-size:24px;
+
+color:#C9A961;
+
+}
+
+.apv122-step h4{
+
+margin-bottom:8px;
+
+font-family:'Playfair Display',serif;
+
+font-size:21px;
+
+color:#0B2545;
+
+}
+
+.apv122-step p{
+
+margin:0;
+
+font-size:14px;
+
+line-height:1.7;
+
+color:#666;
+
+}
+
+.apv122-arrow{
+
+color:#C9A961;
+
+font-size:22px;
+
+}
+
+/*******************************/
+
+@media(max-width:991px){
+
+.apv122-flow{
+
+flex-direction:column;
+
+}
+
+.apv122-arrow{
+
+transform:rotate(90deg);
+
+}
+
+.apv122-step{
+
+width:100%;
+
+max-width:280px;
+
+}
+
+.apv122-head h2{
+
+font-size:28px;
+
+}
+
+}
+
+/*=========================================
+DONATION CTA
+Prefix : apv123-
+=========================================*/
+
+.apv123-wrap{
+
+padding:55px 0 70px;
+
+background:#6e6e6e1f;
+
+}
+
+.apv123-card{
+
+background:#FCFBF8;
+
+border:2px solid #0B2545;
+
+padding:34px;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.apv123-card:before{
+
+content:"";
+
+position:absolute;
+
+left:12px;
+
+right:12px;
+
+top:12px;
+
+bottom:12px;
+
+border:1px solid rgba(201,169,97,.45);
+
+pointer-events:none;
+
+}
+
+.apv123-header{
+
+display:flex;
+
+align-items:center;
+
+gap:28px;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.apv123-seal{
+
+width:82px;
+
+height:82px;
+
+border-radius:50%;
+
+background:#0B2545;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+flex:none;
+
+}
+
+.apv123-seal i{
+
+font-size:34px;
+
+color:#C9A961;
+
+}
+
+.apv123-title span{
+
+display:block;
+
+font-size:12px;
+
+letter-spacing:3px;
+
+font-weight:700;
+
+color:#C9A961;
+
+margin-bottom:8px;
+
+text-transform:uppercase;
+
+}
+
+.apv123-title h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:34px;
+
+margin-bottom:12px;
+
+color:#0B2545;
+
+}
+
+.apv123-title p{
+
+margin:0;
+
+font-size:15px;
+
+line-height:1.8;
+
+color:#666;
+
+}
+
+.apv123-divider{
+
+height:1px;
+
+background:#E7DECC;
+
+margin:24px 0;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.apv123-features{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:15px;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.apv123-features div{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+justify-content:center;
+
+padding:18px;
+
+background:#fff;
+
+border:1px solid #E8DFCC;
+
+transition:.35s;
+
+}
+
+.apv123-features div:hover{
+
+border-color:#C9A961;
+
+background:#FFFDF8;
+
+transform:translateY(-4px);
+
+}
+
+.apv123-features i{
+
+font-size:24px;
+
+color:#C9A961;
+
+margin-bottom:10px;
+
+}
+
+.apv123-features span{
+
+font-size:14px;
+
+font-weight:600;
+
+color:#0B2545;
+
+text-align:center;
+
+}
+
+.apv123-footer{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:25px;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.apv123-contact{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:25px;
+
+}
+
+.apv123-contact a{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+font-weight:600;
+
+font-size:15px;
+
+color:#0B2545;
+
+text-decoration:none;
+
+}
+
+.apv123-contact i{
+
+color:#C9A961;
+
+}
+
+.apv123-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:15px 28px;
+
+background:#0B2545;
+
+color:#fff;
+
+font-weight:700;
+
+text-decoration:none;
+
+transition:.35s;
+
+}
+
+.apv123-btn:hover{
+
+background:#C9A961;
+
+color:#fff;
+
+}
+
+@media(max-width:991px){
+
+.apv123-header{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.apv123-features{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.apv123-footer{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+.apv123-btn{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.apv123-wrap{
+
+padding:40px 0 50px;
+
+}
+
+.apv123-card{
+
+padding:22px;
+
+}
+
+.apv123-title h2{
+
+font-size:28px;
+
+}
+
+.apv123-features{
+
+grid-template-columns:1fr;
+
+}
+
+.apv123-contact{
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+}

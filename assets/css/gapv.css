@@ -1,0 +1,2358 @@
+
+/* ============================================================
+   A2Z MODERN ART VALUERS
+   FINAL HOMEPAGE DESIGN SYSTEM
+   ------------------------------------------------------------
+   UNIQUE CSS NAMESPACE:
+   a2zma-
+
+   Designed specifically for:
+   governmentapprovedmodernartvaluers.com
+
+   Bright luxury-institutional art direction
+   Navy dominant / restrained gold
+   Modern typography
+============================================================ */
+
+
+/* ============================================================
+   GOOGLE FONTS
+============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+
+/* ============================================================
+   ROOT
+============================================================ */
+
+.a2zma-page {
+
+    --a2zma-navy: #12375c;
+    --a2zma-navy-dark: #0b2948;
+    --a2zma-navy-soft: #214a72;
+
+    --a2zma-gold: #c7962d;
+    --a2zma-gold-light: #d8b35e;
+    --a2zma-gold-soft: #efe2c2;
+
+    --a2zma-ivory: #fbfaf6;
+    --a2zma-paper: #f5f0e6;
+    --a2zma-white: #ffffff;
+
+    --a2zma-text: #24384d;
+    --a2zma-muted: #718092;
+
+    --a2zma-line: rgba(18,55,92,.12);
+
+    font-family:
+        "Manrope",
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    color:
+        var(--a2zma-text);
+
+    font-size:
+        16px;
+
+    line-height:
+        1.6;
+
+    background:
+        linear-gradient(
+            180deg,
+            #fbfaf7 0%,
+            #ffffff 28%,
+            #f8f4eb 58%,
+            #ffffff 100%
+        );
+
+    overflow:
+        hidden;
+}
+
+
+/* ============================================================
+   RESET
+============================================================ */
+
+.a2zma-page *,
+.a2zma-page *::before,
+.a2zma-page *::after {
+
+    box-sizing:
+        border-box;
+}
+
+
+.a2zma-page img {
+
+    display:
+        block;
+
+    max-width:
+        100%;
+
+    opacity:
+        1 !important;
+
+    visibility:
+        visible !important;
+}
+
+
+.a2zma-page a {
+
+    text-decoration:
+        none;
+}
+
+
+.a2zma-page p {
+
+    margin:
+        0;
+}
+
+
+.a2zma-page h1,
+.a2zma-page h2,
+.a2zma-page h3,
+.a2zma-page h4 {
+
+    margin:
+        0;
+}
+
+
+/* ============================================================
+   CONTAINER
+============================================================ */
+
+.a2zma-wrap {
+
+    width:
+        min(1240px, calc(100% - 44px));
+
+    margin:
+        0 auto;
+}
+
+
+/* ============================================================
+   TYPOGRAPHY
+============================================================ */
+
+.a2zma-kicker {
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    gap:
+        10px;
+
+    color:
+        var(--a2zma-gold);
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        .13em;
+
+    line-height:
+        1.4;
+
+    text-transform:
+        uppercase;
+}
+
+
+.a2zma-kicker::before {
+
+    content:
+        "";
+
+    width:
+        29px;
+
+    height:
+        2px;
+
+    background:
+        var(--a2zma-gold);
+}
+
+
+.a2zma-title {
+
+    color:
+        var(--a2zma-navy);
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        clamp(38px, 4.5vw, 52px);
+
+    font-weight:
+        600;
+
+    letter-spacing:
+        -.045em;
+
+    line-height:
+        1.08;
+}
+
+
+.a2zma-serif {
+
+    color:
+        var(--a2zma-gold);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-weight:
+        400;
+}
+
+
+/* ============================================================
+   BUTTON SYSTEM
+============================================================ */
+
+.a2zma-actions {
+
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        11px;
+
+    margin-top:
+        30px;
+}
+
+
+.a2zma-btn {
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    min-height:
+        52px;
+
+    padding:
+        0 23px;
+
+    border:
+        1px solid transparent;
+
+    border-radius:
+        4px;
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+
+    line-height:
+        1.2;
+
+    transition:
+        .25s ease;
+
+    cursor:
+        pointer;
+}
+
+
+.a2zma-btn--gold {
+
+    color:
+        #102f50 !important;
+
+    background:
+        var(--a2zma-gold);
+
+    border-color:
+        var(--a2zma-gold);
+}
+
+
+.a2zma-btn--gold:hover {
+
+    color:
+        #102f50 !important;
+
+    background:
+        var(--a2zma-gold-light);
+
+    border-color:
+        var(--a2zma-gold-light);
+
+    transform:
+        translateY(-2px);
+}
+
+
+.a2zma-btn--navy {
+
+    color:
+        #ffffff !important;
+
+    background:
+        var(--a2zma-navy);
+
+    border-color:
+        var(--a2zma-navy);
+}
+
+
+.a2zma-btn--navy:hover {
+
+    color:
+        #ffffff !important;
+
+    background:
+        var(--a2zma-navy-dark);
+
+    border-color:
+        var(--a2zma-navy-dark);
+
+    transform:
+        translateY(-2px);
+}
+
+
+/* ============================================================
+   SECTION 01
+   HERO
+============================================================ */
+
+.a2zma-hero {
+
+    position:
+        relative;
+
+    padding:
+        52px 0 92px;
+
+    background:
+        linear-gradient(
+            120deg,
+            #fbfaf6 0%,
+            #f6f0e4 52%,
+            #ffffff 100%
+        );
+}
+
+
+/* very subtle art-paper line */
+
+.a2zma-hero::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    right:
+        -100px;
+
+    top:
+        50px;
+
+    width:
+        500px;
+
+    height:
+        500px;
+
+    border:
+        1px solid rgba(199,150,45,.10);
+
+    border-radius:
+        50%;
+
+    pointer-events:
+        none;
+}
+
+
+.a2zma-hero-grid {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1.03fr)
+        minmax(430px, .72fr);
+
+    gap:
+        65px;
+
+    align-items:
+        center;
+}
+
+
+/* ============================================================
+   HERO COPY
+============================================================ */
+
+.a2zma-hero-copy {
+
+    padding:
+        15px 0;
+}
+
+
+.a2zma-hero-badge {
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    gap:
+        8px;
+
+    padding:
+        9px 15px;
+
+    border:
+        1px solid rgba(18,55,92,.12);
+
+    border-radius:
+        50px;
+
+    color:
+        var(--a2zma-navy);
+
+    background:
+        rgba(255,255,255,.9);
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        .055em;
+
+    box-shadow:
+        0 8px 25px rgba(18,55,92,.05);
+}
+
+
+.a2zma-hero-badge strong {
+
+    color:
+        var(--a2zma-gold);
+}
+
+
+.a2zma-hero h1 {
+
+    max-width:
+        790px;
+
+    margin:
+        27px 0 23px;
+
+    color:
+        var(--a2zma-navy);
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        clamp(47px, 5.5vw, 78px);
+
+    font-weight:
+        600;
+
+    letter-spacing:
+        -.055em;
+
+    line-height:
+        .99;
+}
+
+
+/* deliberate editorial accent */
+
+.a2zma-hero h1 em {
+
+    display:
+        inline;
+
+    color:
+        var(--a2zma-gold);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-style:
+        normal;
+
+    font-weight:
+        400;
+
+    letter-spacing:
+        -.025em;
+}
+
+
+.a2zma-hero-lead {
+
+    max-width:
+        700px;
+
+    color:
+        var(--a2zma-navy);
+
+    font-size:
+        20px !important;
+
+    font-weight:
+        600;
+
+    line-height:
+        1.65;
+}
+
+
+.a2zma-hero-description {
+
+    max-width:
+        720px;
+
+    margin-top:
+        18px !important;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        16px !important;
+
+    line-height:
+        1.85;
+}
+
+
+.a2zma-hero-description strong {
+
+    color:
+        var(--a2zma-navy);
+
+    font-weight:
+        800;
+}
+
+
+/* ============================================================
+   HERO CREDENTIALS
+============================================================ */
+
+.a2zma-hero-facts {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    max-width:
+        760px;
+
+    margin-top:
+        32px;
+
+    border-top:
+        1px solid var(--a2zma-line);
+}
+
+
+.a2zma-hero-fact {
+
+    padding:
+        20px 20px 0 0;
+
+    border-right:
+        1px solid var(--a2zma-line);
+}
+
+
+.a2zma-hero-fact:not(:first-child) {
+
+    padding-left:
+        20px;
+}
+
+
+.a2zma-hero-fact:last-child {
+
+    border-right:
+        0;
+}
+
+
+.a2zma-hero-fact strong {
+
+    display:
+        block;
+
+    color:
+        var(--a2zma-navy);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-size:
+        27px !important;
+
+    font-weight:
+        400;
+
+    line-height:
+        1.1;
+}
+
+
+.a2zma-hero-fact span {
+
+    display:
+        block;
+
+    margin-top:
+        6px;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.45;
+}
+
+
+/* ============================================================
+   HERO IMAGE
+============================================================ */
+
+.a2zma-hero-visual {
+
+    position:
+        relative;
+
+    min-height:
+        675px;
+}
+
+
+.a2zma-hero-frame {
+
+    position:
+        absolute;
+
+    top:
+        0;
+
+    right:
+        0;
+
+    width:
+        88%;
+
+    height:
+        620px;
+
+    padding:
+        9px;
+
+    background:
+        #ffffff;
+
+    box-shadow:
+        0 30px 70px rgba(18,55,92,.17);
+
+    z-index:
+        2;
+}
+
+
+.a2zma-hero-frame::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    right:
+        -28px;
+
+    bottom:
+        -28px;
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    border:
+        1px solid rgba(199,150,45,.30);
+
+    z-index:
+        -1;
+}
+
+
+.a2zma-hero-frame img {
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    object-fit:
+        cover;
+
+    object-position:
+        center;
+
+    border:
+        1px solid rgba(18,55,92,.08);
+}
+
+
+/* IMAGE LABEL */
+
+.a2zma-hero-label {
+
+    position:
+        absolute;
+
+    left:
+        -28px;
+
+    top:
+        65px;
+
+    z-index:
+        5;
+
+    padding:
+        13px 19px;
+
+    color:
+        #ffffff;
+
+    background:
+        var(--a2zma-navy);
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        .055em;
+
+    box-shadow:
+        0 12px 28px rgba(18,55,92,.18);
+}
+
+
+/* NAME CARD */
+
+.a2zma-hero-name {
+
+    position:
+        absolute;
+
+    left:
+        -20px;
+
+    bottom:
+        20px;
+
+    z-index:
+        6;
+
+    width:
+        270px;
+
+    padding:
+        20px 22px;
+
+    background:
+        #ffffff;
+
+    border-left:
+        4px solid var(--a2zma-gold);
+
+    box-shadow:
+        0 20px 45px rgba(18,55,92,.16);
+}
+
+
+.a2zma-hero-name strong {
+
+    display:
+        block;
+
+    color:
+        var(--a2zma-navy);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-size:
+        25px !important;
+
+    font-weight:
+        400;
+
+    line-height:
+        1.2;
+}
+
+
+.a2zma-hero-name span {
+
+    display:
+        block;
+
+    margin-top:
+        5px;
+
+    color:
+        var(--a2zma-gold);
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+}
+
+
+/* ============================================================
+   SECTION 02
+   WHY MODERN INDIAN ART IS DIFFERENT
+============================================================ */
+
+.a2zma-difference {
+
+    padding:
+        100px 0;
+
+    background:
+        #ffffff;
+}
+
+
+.a2zma-section-intro {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        .8fr 1.2fr;
+
+    gap:
+        70px;
+
+    align-items:
+        end;
+
+    margin-bottom:
+        55px;
+}
+
+
+.a2zma-section-intro p {
+
+    max-width:
+        690px;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        17px !important;
+
+    line-height:
+        1.8;
+}
+
+
+/* ============================================================
+   AUTHENTICATION CARDS
+============================================================ */
+
+.a2zma-auth-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:
+        16px;
+}
+
+
+.a2zma-auth-card {
+
+    position:
+        relative;
+
+    min-height:
+        355px;
+
+    padding:
+        30px;
+
+    overflow:
+        hidden;
+
+    border:
+        1px solid var(--a2zma-line);
+
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff 0%,
+            #faf6ed 100%
+        );
+
+    transition:
+        .3s ease;
+}
+
+
+.a2zma-auth-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 20px 45px rgba(18,55,92,.10);
+}
+
+
+.a2zma-auth-card--navy {
+
+    color:
+        #ffffff;
+
+    background:
+        var(--a2zma-navy);
+
+    border-color:
+        var(--a2zma-navy);
+}
+
+
+.a2zma-auth-number {
+
+    color:
+        var(--a2zma-gold);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-size:
+        30px !important;
+}
+
+
+.a2zma-auth-card h3 {
+
+    max-width:
+        320px;
+
+    margin:
+        45px 0 14px;
+
+    color:
+        var(--a2zma-navy);
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        24px;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        -.025em;
+
+    line-height:
+        1.2;
+}
+
+
+.a2zma-auth-card--navy h3 {
+
+    color:
+        #ffffff;
+}
+
+
+.a2zma-auth-card p {
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.75;
+}
+
+
+.a2zma-auth-card--navy p {
+
+    color:
+        rgba(255,255,255,.70);
+}
+
+
+.a2zma-auth-tag {
+
+    position:
+        absolute;
+
+    right:
+        25px;
+
+    bottom:
+        25px;
+
+    color:
+        var(--a2zma-gold);
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        .08em;
+
+    text-transform:
+        uppercase;
+}
+
+
+/* ============================================================
+   SECTION 03
+   ART HISTORY + VISUAL RESEARCH
+============================================================ */
+
+.a2zma-history {
+
+    padding:
+        100px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f2e8,
+            #fbfaf7
+        );
+}
+
+
+.a2zma-history-top {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    gap:
+        50px;
+
+    align-items:
+        end;
+
+    margin-bottom:
+        50px;
+}
+
+
+.a2zma-history-top p {
+
+    max-width:
+        500px;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        16px !important;
+
+    line-height:
+        1.8;
+}
+
+
+/* TIMELINE */
+
+.a2zma-history-line {
+
+    position:
+        relative;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(6,1fr);
+
+    margin-bottom:
+        30px;
+}
+
+
+.a2zma-history-line::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    top:
+        7px;
+
+    left:
+        0;
+
+    right:
+        0;
+
+    height:
+        1px;
+
+    background:
+        rgba(18,55,92,.22);
+}
+
+
+.a2zma-history-item {
+
+    position:
+        relative;
+
+    padding:
+        35px 18px 20px 6px;
+}
+
+
+.a2zma-history-item:not(:last-child) {
+
+    border-right:
+        1px solid rgba(18,55,92,.11);
+}
+
+
+.a2zma-history-dot {
+
+    position:
+        absolute;
+
+    top:
+        2px;
+
+    left:
+        0;
+
+    width:
+        12px;
+
+    height:
+        12px;
+
+    border:
+        3px solid #f7f2e8;
+
+    border-radius:
+        50%;
+
+    background:
+        var(--a2zma-gold);
+}
+
+
+.a2zma-history-year {
+
+    color:
+        var(--a2zma-gold);
+
+    font-size:
+        15px !important;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        .06em;
+}
+
+
+.a2zma-history-item h3 {
+
+    margin:
+        12px 18px 9px 0;
+
+    color:
+        var(--a2zma-navy);
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        19px;
+
+    font-weight:
+        700;
+
+    line-height:
+        1.25;
+}
+
+
+.a2zma-history-item p {
+
+    padding-right:
+        18px;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.65;
+}
+
+
+/* ART RESEARCH FEATURE */
+
+.a2zma-history-feature {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1.12fr .88fr;
+
+    min-height:
+        420px;
+
+    background:
+        var(--a2zma-navy);
+
+    overflow:
+        hidden;
+}
+
+
+.a2zma-history-image {
+
+    position:
+        relative;
+
+    min-height:
+        420px;
+}
+
+
+.a2zma-history-image img {
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    object-fit:
+        cover;
+}
+
+
+.a2zma-history-image::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent 55%,
+            rgba(11,41,72,.55)
+        );
+}
+
+
+.a2zma-history-copy {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        center;
+
+    padding:
+        48px;
+}
+
+
+.a2zma-history-copy .a2zma-kicker {
+
+    color:
+        var(--a2zma-gold-light);
+}
+
+
+.a2zma-history-copy h3 {
+
+    margin-top:
+        15px;
+
+    color:
+        #ffffff;
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        34px;
+
+    font-weight:
+        600;
+
+    letter-spacing:
+        -.035em;
+
+    line-height:
+        1.15;
+}
+
+
+.a2zma-history-copy h3 span {
+
+    color:
+        var(--a2zma-gold-light);
+}
+
+
+.a2zma-history-copy p {
+
+    margin-top:
+        17px;
+
+    color:
+        rgba(255,255,255,.68);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.8;
+}
+
+
+.a2zma-history-links {
+
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        9px;
+
+    margin-top:
+        25px;
+}
+
+
+.a2zma-history-links a {
+
+    padding:
+        9px 13px;
+
+    border:
+        1px solid rgba(255,255,255,.16);
+
+    color:
+        rgba(255,255,255,.84);
+
+    font-size:
+        15px !important;
+
+    transition:
+        .2s ease;
+}
+
+
+.a2zma-history-links a:hover {
+
+    color:
+        #ffffff;
+
+    border-color:
+        var(--a2zma-gold);
+
+    background:
+        rgba(199,150,45,.10);
+}
+
+
+/* ============================================================
+   SECTION 04
+   VALUATION + STATUTORY CONTEXT
+============================================================ */
+
+.a2zma-framework {
+
+    padding:
+        100px 0;
+
+    background:
+        #ffffff;
+}
+
+
+.a2zma-framework-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        .85fr 1.15fr;
+
+    gap:
+        70px;
+
+    align-items:
+        start;
+}
+
+
+.a2zma-framework-copy p {
+
+    max-width:
+        620px;
+
+    margin-top:
+        20px;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        17px !important;
+
+    line-height:
+        1.85;
+}
+
+
+.a2zma-framework-note {
+
+    margin-top:
+        35px;
+
+    padding:
+        25px;
+
+    border-left:
+        3px solid var(--a2zma-gold);
+
+    background:
+        var(--a2zma-paper);
+}
+
+
+.a2zma-framework-note strong {
+
+    display:
+        block;
+
+    color:
+        var(--a2zma-navy);
+
+    font-size:
+        17px !important;
+}
+
+
+.a2zma-framework-note span {
+
+    display:
+        block;
+
+    margin-top:
+        6px;
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        15px !important;
+    line-height:
+        1.65;
+}
+
+
+/* CONTEXT GRID */
+
+.a2zma-context-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    border-top:
+        1px solid var(--a2zma-line);
+
+    border-left:
+        1px solid var(--a2zma-line);
+}
+
+
+.a2zma-context {
+
+    min-height:
+        185px;
+
+    padding:
+        25px;
+
+    border-right:
+        1px solid var(--a2zma-line);
+
+    border-bottom:
+        1px solid var(--a2zma-line);
+
+    background:
+        #ffffff;
+
+    transition:
+        .25s ease;
+}
+
+
+.a2zma-context:hover {
+
+    background:
+        #fbf7ee;
+}
+
+
+.a2zma-context-number {
+
+    display:
+        block;
+
+    color:
+        var(--a2zma-gold);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-size:
+        24px !important;
+}
+
+
+.a2zma-context h3 {
+
+    margin:
+        15px 0 8px;
+
+    color:
+        var(--a2zma-navy);
+
+    font-size:
+        18px;
+
+    font-weight:
+        800;
+
+    line-height:
+        1.3;
+}
+
+
+.a2zma-context p {
+
+    color:
+        var(--a2zma-muted);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.65;
+}
+
+
+/* CREDENTIAL BAR */
+
+.a2zma-credential-bar {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    margin-top:
+        45px;
+
+    background:
+        var(--a2zma-navy);
+}
+
+
+.a2zma-credential {
+
+    min-height:
+        145px;
+
+    padding:
+        25px;
+
+    border-right:
+        1px solid rgba(255,255,255,.13);
+}
+
+
+.a2zma-credential:last-child {
+
+    border-right:
+        0;
+}
+
+
+.a2zma-credential strong {
+
+    display:
+        block;
+
+    color:
+        #ffffff;
+
+    font-size:
+        16px !important;
+
+    font-weight:
+        800;
+
+    line-height:
+        1.4;
+}
+
+
+.a2zma-credential span {
+
+    display:
+        block;
+
+    margin-top:
+        8px;
+
+    color:
+        rgba(255,255,255,.62);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.55;
+}
+
+
+/* ============================================================
+   SECTION 05
+   FINAL CTA
+============================================================ */
+
+.a2zma-contact {
+
+    padding:
+        25px 0 90px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff,
+            #f5efe4
+        );
+}
+
+
+.a2zma-contact-box {
+
+    position:
+        relative;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr auto;
+
+    gap:
+        45px;
+
+    align-items:
+        center;
+
+    padding:
+        52px 55px;
+
+    overflow:
+        hidden;
+
+    background:
+        var(--a2zma-navy);
+
+    box-shadow:
+        0 28px 65px rgba(18,55,92,.17);
+}
+
+
+.a2zma-contact-box::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    right:
+        -110px;
+
+    top:
+        -170px;
+
+    width:
+        390px;
+
+    height:
+        390px;
+
+    border:
+        1px solid rgba(199,150,45,.25);
+
+    border-radius:
+        50%;
+
+    box-shadow:
+        0 0 0 50px rgba(199,150,45,.035);
+}
+
+
+.a2zma-contact-copy {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+}
+
+
+.a2zma-contact-copy .a2zma-kicker {
+
+    color:
+        var(--a2zma-gold-light);
+}
+
+
+.a2zma-contact-copy h2 {
+
+    max-width:
+        800px;
+
+    margin-top:
+        12px;
+
+    color:
+        #ffffff;
+
+    font-family:
+        "Manrope",
+        Arial,
+        sans-serif;
+
+    font-size:
+        clamp(36px,4.4vw,57px);
+
+    font-weight:
+        600;
+
+    letter-spacing:
+        -.045em;
+
+    line-height:
+        1.08;
+}
+
+
+.a2zma-contact-copy h2 em {
+
+    color:
+        var(--a2zma-gold-light);
+
+    font-family:
+        "DM Serif Display",
+        Georgia,
+        serif;
+
+    font-style:
+        normal;
+
+    font-weight:
+        400;
+}
+
+
+.a2zma-contact-copy p {
+
+    max-width:
+        680px;
+
+    margin-top:
+        15px;
+
+    color:
+        rgba(255,255,255,.67);
+
+    font-size:
+        15px !important;
+
+    line-height:
+        1.75;
+}
+
+
+.a2zma-contact-actions {
+
+    position:
+        relative;
+
+    z-index:
+        4;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        10px;
+
+    min-width:
+        205px;
+}
+
+
+.a2zma-contact-phone {
+
+    color:
+        #ffffff !important;
+
+    background:
+        transparent;
+
+    border-color:
+        rgba(255,255,255,.28);
+}
+
+
+.a2zma-contact-phone:hover {
+
+    color:
+        #ffffff !important;
+
+    border-color:
+        var(--a2zma-gold);
+
+    background:
+        rgba(255,255,255,.05);
+}
+
+
+/* ============================================================
+   TABLET
+============================================================ */
+
+@media (max-width: 1100px) {
+
+    .a2zma-hero-grid {
+
+        grid-template-columns:
+            1fr .75fr;
+
+        gap:
+            35px;
+    }
+
+
+    .a2zma-hero-visual {
+
+        min-height:
+            610px;
+    }
+
+
+    .a2zma-hero-frame {
+
+        height:
+            570px;
+    }
+
+
+    .a2zma-history-line {
+
+        grid-template-columns:
+            repeat(3,1fr);
+    }
+
+
+    .a2zma-history-item {
+
+        border-bottom:
+            1px solid rgba(18,55,92,.10);
+    }
+
+
+    .a2zma-credential-bar {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+
+    .a2zma-credential:nth-child(2) {
+
+        border-right:
+            0;
+    }
+
+
+    .a2zma-credential:nth-child(-n+2) {
+
+        border-bottom:
+            1px solid rgba(255,255,255,.13);
+    }
+
+}
+
+
+/* ============================================================
+   TABLET / MOBILE
+============================================================ */
+
+@media (max-width: 900px) {
+
+    .a2zma-hero-grid,
+    .a2zma-section-intro,
+    .a2zma-framework-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-hero-visual {
+
+        max-width:
+            650px;
+
+        width:
+            100%;
+
+        margin:
+            15px auto 0;
+    }
+
+
+    .a2zma-auth-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-auth-card {
+
+        min-height:
+            290px;
+    }
+
+
+    .a2zma-history-top {
+
+        display:
+            block;
+    }
+
+
+    .a2zma-history-top p {
+
+        margin-top:
+            18px;
+    }
+
+
+    .a2zma-history-feature {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-history-image {
+
+        min-height:
+            330px;
+    }
+
+
+    .a2zma-contact-box {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-contact-actions {
+
+        flex-direction:
+            row;
+
+        flex-wrap:
+            wrap;
+    }
+
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 650px) {
+
+    .a2zma-wrap {
+
+        width:
+            calc(100% - 26px);
+    }
+
+
+    .a2zma-hero {
+
+        padding:
+            28px 0 65px;
+    }
+
+
+    .a2zma-hero h1 {
+
+        font-size:
+            43px;
+
+        letter-spacing:
+            -.045em;
+    }
+
+
+    .a2zma-hero-lead {
+
+        font-size:
+            18px !important;
+    }
+
+
+    .a2zma-hero-facts {
+
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+
+    .a2zma-hero-fact {
+
+        border-bottom:
+            1px solid var(--a2zma-line);
+
+        padding-bottom:
+            17px;
+    }
+
+
+    .a2zma-hero-fact:last-child {
+
+        grid-column:
+            span 2;
+
+        padding-left:
+            0;
+
+        border-right:
+            0;
+    }
+
+
+    .a2zma-hero-visual {
+
+        min-height:
+            520px;
+    }
+
+
+    .a2zma-hero-frame {
+
+        width:
+            90%;
+
+        height:
+            480px;
+    }
+
+
+    .a2zma-hero-label {
+
+        left:
+            -5px;
+
+        top:
+            35px;
+    }
+
+
+    .a2zma-hero-name {
+
+        left:
+            0;
+
+        bottom:
+            5px;
+
+        width:
+            235px;
+    }
+
+
+    .a2zma-history-line {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-history-item {
+
+        min-height:
+            auto;
+
+        padding:
+            28px 0 28px 25px;
+
+        border-right:
+            0 !important;
+    }
+
+
+    .a2zma-history-item p {
+
+        padding-right:
+            0;
+    }
+
+
+    .a2zma-history-feature {
+
+        margin-left:
+            -13px;
+
+        margin-right:
+            -13px;
+    }
+
+
+    .a2zma-history-copy {
+
+        padding:
+            35px 25px;
+    }
+
+
+    .a2zma-context-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-credential-bar {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .a2zma-credential {
+
+        border-right:
+            0 !important;
+
+        border-bottom:
+            1px solid rgba(255,255,255,.13);
+    }
+
+
+    .a2zma-credential:last-child {
+
+        border-bottom:
+            0;
+    }
+
+
+    .a2zma-contact-box {
+
+        padding:
+            38px 25px;
+    }
+
+
+    .a2zma-contact-actions {
+
+        flex-direction:
+            column;
+
+        width:
+            100%;
+    }
+
+
+    .a2zma-contact-actions .a2zma-btn {
+
+        width:
+            100%;
+    }
+
+}
+
+
+/* ============================================================
+   ACCESSIBILITY / MOTION
+============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .a2zma-page *,
+    .a2zma-page *::before,
+    .a2zma-page *::after {
+
+        transition:
+            none !important;
+    }
+
+}

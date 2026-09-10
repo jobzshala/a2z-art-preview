@@ -1,0 +1,1659 @@
+/*==============================================
+
+
+
+WHY ACRYLIC
+
+
+
+PART 1
+
+
+
+Prefix : apv12-
+
+
+
+==============================================*/
+
+.apv3-breadcrumb{
+
+    padding:18px 0;
+
+    background:#F8F5EF;
+
+    border-bottom:1px solid #ECE4D3;
+
+}
+
+.apv3-breadcrumb ul{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px 14px;
+
+    padding:0;
+
+    margin:0;
+
+    list-style:none;
+
+    align-items:center;
+
+}
+
+.apv3-breadcrumb li{
+
+    font-size:15px;
+
+    color:#666;
+
+    white-space:nowrap;
+
+}
+
+.apv3-breadcrumb li a{
+
+    color:#0B2545;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.apv3-breadcrumb li:not(:last-child):after{
+
+    content:"/";
+
+    margin-left:14px;
+
+    color:#C9A961;
+
+}
+
+/*******************************
+Responsive
+********************************/
+
+@media (max-width:767px){
+
+    .apv3-breadcrumb{
+
+        padding:12px 0;
+
+    }
+
+    .apv3-breadcrumb ul{
+
+        gap:6px 10px;
+
+    }
+
+    .apv3-breadcrumb li{
+
+        font-size:13px;
+
+    }
+
+    .apv3-breadcrumb li:not(:last-child):after{
+
+        margin-left:10px;
+
+    }
+
+}
+
+
+/*--------------------- PAGE CSS-------------*/
+
+.antiqueHero{
+
+padding:110px 0;
+
+background:#faf9f5;
+
+}
+
+.antiqueLabel{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:10px 24px;
+
+border-radius:40px;
+
+border:1px solid #c9a961;
+
+font-size:13px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+}
+
+.antiqueLabel i{
+
+color:#c9a961;
+
+}
+
+.antiqueHero h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:66px;
+
+line-height:1.1;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+}
+
+.antiqueHero h1 span{
+
+display:block;
+
+color:#c9a961;
+
+}
+
+.heroLine{
+
+width:90px;
+
+height:3px;
+
+background:#c9a961;
+
+margin:30px 0;
+
+}
+
+.antiqueHero p{
+
+font-size:18px;
+
+line-height:2;
+
+color:#666;
+
+margin-bottom:20px;
+
+}
+
+.auctionPanel{
+
+background:#0b2545;
+
+padding:45px;
+
+border-radius:20px;
+
+color:#fff;
+
+box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+}
+
+.auctionTitle{
+
+font-size:13px;
+
+letter-spacing:3px;
+
+margin-bottom:30px;
+
+color:#c9a961;
+
+}
+
+.auctionPanel ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.auctionPanel li{
+
+padding:14px 0;
+
+border-bottom:1px solid rgba(255,255,255,.12);
+
+font-size:18px;
+
+}
+
+.auctionPanel li:last-child{
+
+border:none;
+
+}
+
+.museumCatalogue{
+
+padding:110px 0;
+
+background:#ffffff;
+
+}
+
+.museumHeading{
+
+text-align:center;
+
+max-width:850px;
+
+margin:auto;
+
+margin-bottom:80px;
+
+}
+
+.museumHeading span{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:#f6f3ea;
+
+color:#c9a961;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+border-radius:40px;
+
+margin-bottom:20px;
+
+}
+
+.museumHeading h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:58px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.museumHeading p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+}
+
+.museumItem{
+
+display:grid;
+
+grid-template-columns:90px 1fr 300px;
+
+gap:45px;
+
+padding:45px;
+
+margin-bottom:35px;
+
+background:#faf9f5;
+
+border-radius:20px;
+
+transition:.35s;
+
+align-items:start;
+
+}
+
+.museumItem:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.museumItem.reverse{
+
+background:#fff;
+
+border:1px solid #ececec;
+
+}
+
+.museumNumber{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:62px;
+
+font-weight:700;
+
+color:#c9a961;
+
+line-height:1;
+
+}
+
+.museumContent small{
+
+display:block;
+
+font-size:13px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+color:#999;
+
+margin-bottom:12px;
+
+}
+
+.museumContent h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:40px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+line-height:1.2;
+
+}
+
+.museumContent p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#666;
+
+margin-bottom:28px;
+
+}
+
+.museumHighlights{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+}
+
+.museumHighlights span{
+
+padding:10px 18px;
+
+background:#fff;
+
+border-left:3px solid #c9a961;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#0b2545;
+
+}
+
+.auctionRef{
+
+background:#0b2545;
+
+border-radius:18px;
+
+padding:30px;
+
+color:#fff;
+
+}
+
+.auctionRef h4{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:30px;
+
+margin-bottom:25px;
+
+color:#fff;
+
+}
+
+.auctionRef ul{
+
+margin:0;
+
+padding:0;
+
+list-style:none;
+
+}
+
+.auctionRef li{
+
+padding:12px 0;
+
+border-bottom:1px solid rgba(255,255,255,.12);
+
+font-size:16px;
+
+}
+
+.auctionRef li:last-child{
+
+border:none;
+
+}
+
+@media(max-width:991px){
+
+.museumCatalogue{
+
+padding:70px 0;
+
+}
+
+.museumHeading h2{
+
+font-size:42px;
+
+}
+
+.museumItem{
+
+grid-template-columns:1fr;
+
+padding:30px;
+
+gap:25px;
+
+}
+
+.museumNumber{
+
+font-size:48px;
+
+}
+
+.museumContent h3{
+
+font-size:32px;
+
+}
+
+}
+
+.ledgerSection{
+
+padding:110px 0;
+
+background:#f8f8f5;
+
+}
+
+.ledgerHeading{
+
+max-width:850px;
+
+margin:auto;
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.ledgerHeading span{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:#fff;
+
+border:1px solid #c9a961;
+
+border-radius:40px;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.ledgerHeading h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:56px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.ledgerHeading p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+}
+
+.ledgerItem{
+
+display:grid;
+
+grid-template-columns:90px 1fr 320px;
+
+gap:35px;
+
+background:#fff;
+
+border-radius:18px;
+
+padding:35px;
+
+margin-bottom:30px;
+
+border:1px solid #ececec;
+
+transition:.35s;
+
+}
+
+.ledgerItem:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.07);
+
+}
+
+.ledgerIndex{
+
+display:flex;
+
+align-items:flex-start;
+
+justify-content:center;
+
+}
+
+.ledgerIndex span{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+background:#0b2545;
+
+color:#fff;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:28px;
+
+font-family:'Cormorant Garamond',serif;
+
+font-weight:700;
+
+}
+
+.ledgerBody small{
+
+display:block;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#c9a961;
+
+margin-bottom:12px;
+
+}
+
+.ledgerBody h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:38px;
+
+color:#0b2545;
+
+margin-bottom:18px;
+
+line-height:1.2;
+
+}
+
+.ledgerBody p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.ledgerTags{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+.ledgerTags span{
+
+padding:10px 16px;
+
+background:#f7f5ef;
+
+border-radius:30px;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#0b2545;
+
+}
+
+.ledgerMarket{
+
+background:#0b2545;
+
+padding:28px;
+
+border-radius:16px;
+
+color:#fff;
+
+}
+
+.ledgerMarket h4{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:30px;
+
+margin-bottom:18px;
+    color: #dabc7a;
+}
+
+.ledgerMarket p{
+
+color:#c9a961;
+
+font-weight:600;
+
+margin-bottom:18px;
+
+}
+
+.ledgerMarket ul{
+
+padding:0;
+
+margin:0;
+
+list-style:none;
+
+}
+
+.ledgerMarket li{
+
+padding:12px 0;
+
+border-bottom:1px solid rgba(255,255,255,.12);
+
+font-size:15px;
+
+}
+
+.ledgerMarket li:last-child{
+
+border:none;
+
+}
+
+@media(max-width:991px){
+
+.ledgerSection{
+
+padding:70px 0;
+
+}
+
+.ledgerHeading h2{
+
+font-size:40px;
+
+}
+
+.ledgerItem{
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+padding:28px;
+
+}
+
+.ledgerIndex{
+
+justify-content:flex-start;
+
+}
+
+.ledgerBody h3{
+
+font-size:30px;
+
+}
+
+}
+
+.auctionBoard{
+
+padding:110px 0;
+
+background:#ffffff;
+
+}
+
+.auctionBoardHead{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+margin-bottom:80px;
+
+}
+
+.auctionBoardHead span{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:#f6f3ea;
+
+border-radius:40px;
+
+font-size:13px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+color:#c9a961;
+
+margin-bottom:20px;
+
+}
+
+.auctionBoardHead h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:56px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+line-height:1.2;
+
+}
+
+.auctionBoardHead p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+}
+
+.auctionBoardItem{
+
+display:grid;
+
+grid-template-columns:300px 1fr 260px;
+
+gap:35px;
+
+padding:35px;
+
+margin-bottom:28px;
+
+border-radius:18px;
+
+background:#faf9f5;
+
+border:1px solid #ececec;
+
+transition:.35s;
+
+}
+
+.auctionBoardItem:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.07);
+
+}
+
+.auctionLeft{
+
+display:flex;
+
+gap:20px;
+
+align-items:flex-start;
+
+}
+
+.auctionNo{
+
+width:70px;
+
+height:70px;
+
+background:#c9a961;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:28px;
+
+font-family:'Cormorant Garamond',serif;
+
+font-weight:700;
+
+color:#fff;
+
+flex-shrink:0;
+
+}
+
+.auctionLeft small{
+
+display:block;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#999;
+
+margin-bottom:10px;
+
+}
+
+.auctionLeft h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:34px;
+
+line-height:1.2;
+
+color:#0b2545;
+
+margin:0;
+
+}
+
+.auctionCenter p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.auctionBadges{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+.auctionBadges span{
+
+padding:10px 16px;
+
+background:#fff;
+
+border-left:3px solid #c9a961;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#0b2545;
+
+}
+
+.auctionRight{
+
+background:#0b2545;
+
+padding:25px;
+
+border-radius:14px;
+
+color:#fff;
+
+}
+
+.auctionRight h4{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:28px;
+
+margin-bottom:20px;
+color: #dabc7a;
+}
+
+.auctionRight ul{
+
+margin:0;
+
+padding:0;
+
+list-style:none;
+
+}
+
+.auctionRight li{
+
+padding:12px 0;
+
+border-bottom:1px solid rgba(255,255,255,.12);
+
+font-size:15px;
+
+}
+
+.auctionRight li:last-child{
+
+border:none;
+
+}
+
+@media(max-width:991px){
+
+.auctionBoard{
+
+padding:70px 0;
+
+}
+
+.auctionBoardHead h2{
+
+font-size:40px;
+
+}
+
+.auctionBoardItem{
+
+grid-template-columns:1fr;
+
+}
+
+.auctionLeft{
+
+flex-direction:column;
+
+}
+
+}
+
+.trustAuthority{
+
+padding:110px 0;
+
+background:#f8f8f5;
+
+}
+
+.trustHeading{
+
+text-align:center;
+
+max-width:900px;
+
+margin:auto;
+
+margin-bottom:70px;
+
+}
+
+.trustHeading span{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:#fff;
+
+border:1px solid #c9a961;
+
+border-radius:40px;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.trustHeading h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:58px;
+
+line-height:1.2;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.trustHeading p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+}
+
+.trustCard{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:18px;
+
+height:100%;
+
+border-top:4px solid #c9a961;
+
+transition:.35s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.trustCard:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.trustIcon{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+background:#0b2545;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:28px;
+
+color:#c9a961;
+
+margin-bottom:25px;
+
+}
+
+.trustCard h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:32px;
+
+line-height:1.3;
+
+margin-bottom:18px;
+
+color:#0b2545;
+
+}
+
+.trustCard p{
+
+font-size:16px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+.trustCTA{
+
+margin-top:70px;
+
+background:#0b2545;
+
+border-radius:20px;
+
+padding:45px 55px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:30px;
+
+}
+
+.trustCTA span{
+
+display:block;
+
+font-size:13px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+color:#c9a961;
+
+margin-bottom:10px;
+
+}
+
+.trustCTA h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:42px;
+
+color:#fff;
+
+margin:0;
+
+line-height:1.3;
+
+}
+
+.trustBtn{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:14px;
+
+padding:18px 34px;
+
+background:#c9a961;
+
+color:#0b2545;
+
+font-weight:700;
+
+border-radius:50px;
+
+text-decoration:none;
+
+transition:.35s;
+
+white-space:nowrap;
+
+}
+
+.trustBtn:hover{
+
+background:#fff;
+
+color:#0b2545;
+
+}
+
+@media(max-width:991px){
+
+.trustAuthority{
+
+padding:70px 0;
+
+}
+
+.trustHeading h2{
+
+font-size:42px;
+
+}
+
+.trustCTA{
+
+flex-direction:column;
+
+text-align:center;
+
+padding:35px;
+
+}
+
+.trustCTA h3{
+
+font-size:32px;
+
+}
+
+}
+.valuationDesk{
+
+padding:120px 0;
+
+background:linear-gradient(180deg,#ffffff,#f8f8f5);
+
+}
+
+.valuationDeskBox{
+
+background:#0b2545;
+
+border-radius:28px;
+
+padding:70px;
+
+position:relative;
+
+overflow:hidden;
+
+box-shadow:0 30px 70px rgba(0,0,0,.15);
+
+}
+
+.valuationDeskBox:before{
+
+content:"";
+
+position:absolute;
+
+top:-140px;
+
+right:-120px;
+
+width:340px;
+
+height:340px;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.05);
+
+}
+
+.deskLabel{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:10px 24px;
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:40px;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#c9a961;
+
+margin-bottom:25px;
+
+}
+
+.deskLabel i{
+
+color:#c9a961;
+
+}
+
+.valuationDesk h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:58px;
+
+line-height:1.15;
+
+color:#fff;
+
+margin-bottom:25px;
+
+}
+
+.valuationDesk p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:rgba(255,255,255,.82);
+
+margin-bottom:35px;
+
+}
+
+.deskFeatures{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:18px;
+
+}
+
+.deskFeatures div{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+padding:18px 20px;
+
+background:rgba(255,255,255,.06);
+
+border-radius:12px;
+
+font-weight:600;
+
+color:#fff;
+
+}
+
+.deskFeatures i{
+
+color:#c9a961;
+
+}
+
+.appointmentCard{
+
+background:#fff;
+
+border-radius:22px;
+
+padding:40px;
+
+text-align:center;
+
+height:100%;
+
+}
+
+.appointmentIcon{
+
+width:90px;
+
+height:90px;
+
+margin:auto;
+
+margin-bottom:25px;
+
+border-radius:50%;
+
+background:#f6f3ea;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:36px;
+
+color:#c9a961;
+
+}
+
+.appointmentCard h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:36px;
+
+line-height:1.3;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.appointmentCard p{
+
+font-size:16px;
+
+line-height:1.8;
+
+color:#666;
+
+margin-bottom:30px;
+
+}
+
+.appointmentBtn{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:12px;
+
+background:#c9a961;
+
+color:#0b2545;
+
+padding:16px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:700;
+
+margin-bottom:15px;
+
+transition:.3s;
+
+}
+
+.appointmentBtn:hover{
+
+background:#0b2545;
+
+color:#fff;
+
+}
+
+.appointmentCall{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:10px;
+
+padding:16px;
+
+border:2px solid #ececec;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:700;
+
+color:#0b2545;
+
+transition:.3s;
+
+}
+
+.appointmentCall:hover{
+
+background:#f6f3ea;
+
+}
+
+@media(max-width:991px){
+
+.valuationDesk{
+
+padding:80px 0;
+
+}
+
+.valuationDeskBox{
+
+padding:40px 30px;
+
+}
+
+.valuationDesk h2{
+
+font-size:40px;
+
+}
+
+.deskFeatures{
+
+grid-template-columns:1fr;
+
+margin-bottom:40px;
+
+}
+
+.appointmentCard{
+
+margin-top:40px;
+
+}
+
+}

@@ -1,0 +1,1457 @@
+/*==============================================
+
+WHY ACRYLIC
+
+PART 1
+
+Prefix : apv12-
+
+==============================================*/
+.apv3-breadcrumb{
+
+    padding:18px 0;
+
+    background:#F8F5EF;
+
+    border-bottom:1px solid #ECE4D3;
+
+}
+
+.apv3-breadcrumb ul{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px 14px;
+
+    padding:0;
+
+    margin:0;
+
+    list-style:none;
+
+    align-items:center;
+
+}
+
+.apv3-breadcrumb li{
+
+    font-size:15px;
+
+    color:#666;
+
+    white-space:nowrap;
+
+}
+
+.apv3-breadcrumb li a{
+
+    color:#0B2545;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.apv3-breadcrumb li:not(:last-child):after{
+
+    content:"/";
+
+    margin-left:14px;
+
+    color:#C9A961;
+
+}
+
+/*******************************
+Responsive
+********************************/
+
+@media (max-width:767px){
+
+    .apv3-breadcrumb{
+
+        padding:12px 0;
+
+    }
+
+    .apv3-breadcrumb ul{
+
+        gap:6px 10px;
+
+    }
+
+    .apv3-breadcrumb li{
+
+        font-size:13px;
+
+    }
+
+    .apv3-breadcrumb li:not(:last-child):after{
+
+        margin-left:10px;
+
+    }
+
+}
+
+/*--------------------- PAGE CSS-------------*/
+/*=========================================
+AUCTION RESEARCH HERO
+Prefix : ahc100-
+=========================================*/
+
+.ahc100-hero{
+
+padding:55px 0;
+
+background:#FCFBF8;
+
+}
+
+.ahc100-badge{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:8px 18px;
+
+border:1px solid #E8DECB;
+
+border-radius:30px;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+color:#C9A961;
+
+margin-bottom:20px;
+
+}
+
+.ahc100-badge i{
+
+font-size:15px;
+
+}
+
+.ahc100-hero h1{
+
+font-family:'Playfair Display',serif;
+
+font-size:50px;
+
+line-height:1.08;
+
+color:#0B2545;
+
+margin-bottom:18px;
+
+}
+
+.ahc100-hero h1 span{
+
+display:block;
+
+color:#C9A961;
+
+}
+
+.ahc100-divider{
+
+width:80px;
+
+height:3px;
+
+background:#C9A961;
+
+margin:20px 0;
+
+}
+
+.ahc100-hero p{
+
+font-size:16px;
+
+line-height:1.9;
+
+color:#666;
+
+margin-bottom:24px;
+
+}
+
+.ahc100-highlights{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:12px;
+
+}
+
+.ahc100-highlights div{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:12px 15px;
+
+background:#fff;
+
+border:1px solid #ECE4D3;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#0B2545;
+
+transition:.35s;
+
+}
+
+.ahc100-highlights div:hover{
+
+border-color:#C9A961;
+
+background:#FFFDF8;
+
+}
+
+.ahc100-highlights i{
+
+color:#C9A961;
+
+}
+
+/******************************/
+
+.ahc100-library{
+
+background:#fff;
+
+border:1px solid #E8DFCC;
+
+box-shadow:0 12px 30px rgba(0,0,0,.05);
+
+}
+
+.ahc100-library-head{
+
+padding:16px 22px;
+
+background:#0B2545;
+
+color:#fff;
+
+text-align:center;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:3px;
+
+}
+
+.ahc100-library-body{
+
+padding:24px;
+
+}
+
+.ahc100-group{
+
+margin-bottom:22px;
+
+}
+
+.ahc100-group:last-child{
+
+margin-bottom:0;
+
+}
+
+.ahc100-group h5{
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+color:#C9A961;
+
+margin-bottom:14px;
+
+}
+
+.ahc100-group ul{
+
+margin:0;
+
+padding:0;
+
+list-style:none;
+
+}
+
+.ahc100-group li{
+
+padding:10px 0;
+
+border-bottom:1px solid #ECE4D3;
+
+font-size:15px;
+
+font-weight:600;
+
+color:#0B2545;
+
+}
+
+.ahc100-group li:last-child{
+
+border-bottom:none;
+
+}
+
+.ahc100-library-foot{
+
+padding:16px;
+
+background:#FCFBF8;
+
+border-top:1px solid #ECE4D3;
+
+text-align:center;
+
+font-size:12px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+text-transform:uppercase;
+
+color:#0B2545;
+
+}
+
+/*****************************************/
+
+@media(max-width:991px){
+
+.ahc100-hero{
+
+padding:40px 0;
+
+}
+
+.ahc100-hero h1{
+
+font-size:36px;
+
+}
+
+.ahc100-library{
+
+margin-top:20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.ahc100-hero{
+
+padding:30px 0;
+
+}
+
+.ahc100-hero h1{
+
+font-size:30px;
+
+}
+
+.ahc100-hero p{
+
+font-size:15px;
+
+}
+
+.ahc100-highlights{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/*==========================================
+GLOBAL AUCTION HOUSES
+Prefix : ahc101-
+===========================================*/
+
+.ahc101-wrap{
+
+padding:60px 0;
+
+background:#fff;
+
+}
+
+.ahc101-heading{
+
+max-width:760px;
+
+margin:auto auto 55px;
+
+text-align:center;
+
+}
+
+.ahc101-heading span{
+
+display:inline-block;
+
+padding:8px 18px;
+
+border:1px solid #E8DECB;
+
+border-radius:30px;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#C9A961;
+
+margin-bottom:15px;
+
+}
+
+.ahc101-heading h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:40px;
+
+margin-bottom:18px;
+
+color:#0B2545;
+
+}
+
+.ahc101-heading p{
+
+font-size:16px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+/************************************/
+
+.ahc101-entry{
+
+display:grid;
+
+grid-template-columns:120px 1fr;
+
+gap:40px;
+
+padding:35px 0;
+
+border-bottom:1px solid #ECE4D3;
+
+align-items:start;
+
+}
+
+.ahc101-entry:last-child{
+
+border-bottom:none;
+
+}
+
+.ahc101-entry.reverse{
+
+grid-template-columns:1fr 120px;
+
+}
+
+.ahc101-entry.reverse .ahc101-number{
+
+order:2;
+
+text-align:right;
+
+}
+
+.ahc101-entry.reverse .ahc101-content{
+
+order:1;
+
+}
+
+.ahc101-number{
+
+font-family:'Playfair Display',serif;
+
+font-size:82px;
+
+line-height:1;
+
+font-weight:700;
+
+color:#E9DFC9;
+
+}
+
+.ahc101-content h3{
+
+font-family:'Playfair Display',serif;
+
+font-size:30px;
+
+margin-bottom:14px;
+
+color:#0B2545;
+
+}
+
+.ahc101-content p{
+
+font-size:16px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+.ahc101-content em{
+
+font-style:italic;
+
+color:#0B2545;
+
+}
+
+@media(max-width:991px){
+
+.ahc101-entry,
+
+.ahc101-entry.reverse{
+
+grid-template-columns:1fr;
+
+gap:15px;
+
+}
+
+.ahc101-entry.reverse .ahc101-number,
+
+.ahc101-entry.reverse .ahc101-content{
+
+order:unset;
+
+text-align:left;
+
+}
+
+.ahc101-number{
+
+font-size:58px;
+
+}
+
+.ahc101-heading h2{
+
+font-size:32px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.ahc101-wrap{
+
+padding:40px 0;
+
+}
+
+.ahc101-heading h2{
+
+font-size:28px;
+
+}
+
+.ahc101-content h3{
+
+font-size:24px;
+
+}
+
+.ahc101-content p{
+
+font-size:15px;
+
+}
+
+}
+
+/*==========================================
+INDIAN AUCTION HOUSES
+Prefix : ahc102-
+===========================================*/
+
+.ahc102-wrap{
+
+padding:60px 0;
+
+background:#FCFBF8;
+
+}
+
+.ahc102-heading{
+
+max-width:760px;
+
+margin:auto auto 55px;
+
+text-align:center;
+
+}
+
+.ahc102-heading span{
+
+display:inline-block;
+
+padding:8px 18px;
+
+border:1px solid #E8DECB;
+
+border-radius:30px;
+
+font-size:12px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#C9A961;
+
+margin-bottom:15px;
+
+}
+
+.ahc102-heading h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:40px;
+
+margin-bottom:18px;
+
+color:#0B2545;
+
+}
+
+.ahc102-heading p{
+
+font-size:16px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+/****************************************/
+
+.ahc102-entry{
+
+display:grid;
+
+grid-template-columns:120px 1fr;
+
+gap:40px;
+
+padding:35px 0;
+
+border-bottom:1px solid #E8DFCC;
+
+align-items:start;
+
+}
+
+.ahc102-entry:last-child{
+
+border-bottom:none;
+
+}
+
+.ahc102-entry.reverse{
+
+grid-template-columns:1fr 120px;
+
+}
+
+.ahc102-entry.reverse .ahc102-number{
+
+order:2;
+
+text-align:right;
+
+}
+
+.ahc102-entry.reverse .ahc102-content{
+
+order:1;
+
+}
+
+.ahc102-number{
+
+font-family:'Playfair Display',serif;
+
+font-size:82px;
+
+font-weight:700;
+
+line-height:1;
+
+color:#E9DFC9;
+
+}
+
+.ahc102-content h3{
+
+font-family:'Playfair Display',serif;
+
+font-size:30px;
+
+margin-bottom:15px;
+
+color:#0B2545;
+
+}
+
+.ahc102-content p{
+
+font-size:16px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+@media(max-width:991px){
+
+.ahc102-entry,
+
+.ahc102-entry.reverse{
+
+grid-template-columns:1fr;
+
+gap:15px;
+
+}
+
+.ahc102-entry.reverse .ahc102-number,
+
+.ahc102-entry.reverse .ahc102-content{
+
+order:unset;
+
+text-align:left;
+
+}
+
+.ahc102-number{
+
+font-size:58px;
+
+}
+
+.ahc102-heading h2{
+
+font-size:32px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.ahc102-wrap{
+
+padding:40px 0;
+
+}
+
+.ahc102-heading h2{
+
+font-size:28px;
+
+}
+
+.ahc102-content h3{
+
+font-size:24px;
+
+}
+
+.ahc102-content p{
+
+font-size:15px;
+
+}
+
+}
+
+/*======================================
+FEATURED ENGAGEMENT
+Prefix : ahc103-
+======================================*/
+
+.ahc103-wrap{
+
+padding:60px 0;
+
+background:#fff;
+
+}
+
+.ahc103-feature{
+
+background:#FCFBF8;
+
+border:1px solid #E8DFCC;
+
+padding:35px;
+
+}
+
+.ahc103-highlight{
+
+background:#0B2545;
+
+padding:30px;
+
+color:#fff;
+
+text-align:center;
+
+height:100%;
+
+}
+
+.ahc103-label{
+
+display:block;
+
+font-size:12px;
+
+letter-spacing:3px;
+
+color:#C9A961;
+
+margin-bottom:18px;
+
+font-weight:700;
+
+}
+
+.ahc103-value{
+
+font-family:'Playfair Display',serif;
+
+font-size:70px;
+
+line-height:1;
+
+color:#fff;
+
+margin-bottom:10px;
+
+}
+
+.ahc103-highlight h3{
+
+font-family:'Playfair Display',serif;
+
+font-size:28px;
+
+line-height:1.3;
+
+margin-bottom:20px;
+    color: #c9a961;
+}
+
+.ahc103-line{
+
+width:70px;
+
+height:2px;
+
+background:#C9A961;
+
+margin:25px auto;
+
+}
+
+.ahc103-highlight ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.ahc103-highlight li{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:10px 0;
+
+border-top:1px solid rgba(255,255,255,.10);
+
+justify-content:center;
+
+}
+
+.ahc103-highlight li:first-child{
+
+border-top:none;
+
+}
+
+.ahc103-highlight i{
+
+color:#C9A961;
+
+}
+
+.ahc103-content{
+
+padding-left:20px;
+
+}
+
+.ahc103-content span{
+
+display:inline-block;
+
+font-size:12px;
+
+letter-spacing:3px;
+
+font-weight:700;
+
+color:#C9A961;
+
+margin-bottom:15px;
+
+}
+
+.ahc103-content h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:38px;
+
+margin-bottom:18px;
+
+color:#0B2545;
+
+}
+
+.ahc103-content p{
+
+font-size:16px;
+
+line-height:1.95;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.ahc103-tags{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+}
+
+.ahc103-tags div{
+
+padding:10px 16px;
+
+background:#fff;
+
+border:1px solid #ECE4D3;
+
+font-size:13px;
+
+font-weight:600;
+
+color:#0B2545;
+
+transition:.3s;
+
+}
+
+.ahc103-tags div:hover{
+
+border-color:#C9A961;
+
+background:#FFFDF8;
+
+}
+
+@media(max-width:991px){
+
+.ahc103-wrap{
+
+padding:45px 0;
+
+}
+
+.ahc103-content{
+
+padding-left:0;
+
+padding-top:25px;
+
+}
+
+.ahc103-content h2{
+
+font-size:30px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.ahc103-feature{
+
+padding:20px;
+
+}
+
+.ahc103-value{
+
+font-size:52px;
+
+}
+
+.ahc103-content h2{
+
+font-size:26px;
+
+}
+
+.ahc103-tags{
+
+flex-direction:column;
+
+}
+
+.ahc103-tags div{
+
+text-align:center;
+
+}
+
+}
+
+/*======================================
+RESEARCH STANDARDS
+Prefix : ahc104-
+=======================================*/
+
+.ahc104-wrap{
+
+padding:55px 0 70px;
+
+background:#FCFBF8;
+
+}
+
+.ahc104-card{
+
+background:#fff;
+
+border:2px solid #0B2545;
+
+padding:34px;
+
+position:relative;
+
+}
+
+.ahc104-card:before{
+
+content:"";
+
+position:absolute;
+
+left:12px;
+
+right:12px;
+
+top:12px;
+
+bottom:12px;
+
+border:1px solid rgba(201,169,97,.45);
+
+pointer-events:none;
+
+}
+
+.apc104-card>*,
+.ahc104-card>*{
+
+position:relative;
+
+z-index:2;
+
+}
+
+.ahc104-header{
+
+display:flex;
+
+align-items:center;
+
+gap:28px;
+
+}
+
+.ahc104-seal{
+
+width:82px;
+
+height:82px;
+
+border-radius:50%;
+
+background:#0B2545;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+flex:none;
+
+}
+
+.ahc104-seal i{
+
+font-size:34px;
+
+color:#C9A961;
+
+}
+
+.ahc104-title span{
+
+display:block;
+
+font-size:12px;
+
+letter-spacing:3px;
+
+font-weight:700;
+
+color:#C9A961;
+
+margin-bottom:8px;
+
+}
+
+.ahc104-title h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:34px;
+
+margin-bottom:12px;
+
+color:#0B2545;
+
+}
+
+.ahc104-title p{
+
+margin:0;
+
+font-size:15px;
+
+line-height:1.85;
+
+color:#666;
+
+}
+
+.ahc104-divider{
+
+height:1px;
+
+background:#E8DFCC;
+
+margin:24px 0;
+
+}
+
+.ahc104-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:15px;
+
+}
+
+.ahc104-grid div{
+
+padding:20px;
+
+background:#FCFBF8;
+
+border:1px solid #ECE4D3;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.ahc104-grid div:hover{
+
+border-color:#C9A961;
+
+transform:translateY(-4px);
+
+}
+
+.ahc104-grid i{
+
+font-size:26px;
+
+margin-bottom:12px;
+
+color:#C9A961;
+
+}
+
+.ahc104-grid h4{
+
+margin:0;
+
+font-size:18px;
+
+font-family:'Playfair Display',serif;
+
+line-height:1.4;
+
+color:#0B2545;
+
+}
+
+.ahc104-footer{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:20px;
+
+}
+
+.ahc104-contact{
+
+display:flex;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+.ahc104-contact div{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+font-size:15px;
+
+font-weight:600;
+
+color:#0B2545;
+
+}
+
+.ahc104-contact i{
+
+color:#C9A961;
+
+}
+
+.ahc104-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:15px 30px;
+
+background:#0B2545;
+
+color:#fff;
+
+font-weight:700;
+
+text-decoration:none;
+
+transition:.35s;
+
+}
+
+.ahc104-btn:hover{
+
+background:#C9A961;
+
+color:#fff;
+
+}
+
+@media(max-width:991px){
+
+.ahc104-header{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.ahc104-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.ahc104-footer{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+.ahc104-btn{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.ahc104-wrap{
+
+padding:40px 0 50px;
+
+}
+
+.ahc104-card{
+
+padding:20px;
+
+}
+
+.ahc104-title h2{
+
+font-size:28px;
+
+}
+
+.ahc104-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.ahc104-contact{
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+}

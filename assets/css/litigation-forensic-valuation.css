@@ -1,0 +1,1252 @@
+/*==============================================
+
+
+
+WHY ACRYLIC
+
+
+
+PART 1
+
+
+
+Prefix : apv12-
+
+
+
+==============================================*/
+
+.apv3-breadcrumb{
+
+    padding:18px 0;
+
+    background:#F8F5EF;
+
+    border-bottom:1px solid #ECE4D3;
+
+}
+
+.apv3-breadcrumb ul{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px 14px;
+
+    padding:0;
+
+    margin:0;
+
+    list-style:none;
+
+    align-items:center;
+
+}
+
+.apv3-breadcrumb li{
+
+    font-size:15px;
+
+    color:#666;
+
+    white-space:nowrap;
+
+}
+
+.apv3-breadcrumb li a{
+
+    color:#0B2545;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.apv3-breadcrumb li:not(:last-child):after{
+
+    content:"/";
+
+    margin-left:14px;
+
+    color:#C9A961;
+
+}
+
+/*******************************
+Responsive
+********************************/
+
+@media (max-width:767px){
+
+    .apv3-breadcrumb{
+
+        padding:12px 0;
+
+    }
+
+    .apv3-breadcrumb ul{
+
+        gap:6px 10px;
+
+    }
+
+    .apv3-breadcrumb li{
+
+        font-size:13px;
+
+    }
+
+    .apv3-breadcrumb li:not(:last-child):after{
+
+        margin-left:10px;
+
+    }
+
+}
+
+
+/*--------------------- PAGE CSS-------------*/
+
+
+.litHero{
+
+padding:100px 0;
+
+background:#f8f8f6;
+
+}
+
+
+
+.litHeroTop{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+
+
+.litLabel{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:10px 24px;
+
+border:1px solid #c9a961;
+
+border-radius:40px;
+
+font-size:14px;
+
+font-weight:600;
+
+letter-spacing:1px;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+background:#fff;
+
+}
+
+
+
+.litLabel i{
+
+color:#c9a961;
+
+}
+
+
+
+.litHero h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:64px;
+
+font-weight:700;
+
+line-height:1.1;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+}
+
+
+
+.litHero h1 span{
+
+display:block;
+
+color:#c9a961;
+
+}
+
+
+
+.litHeroTop p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+max-width:850px;
+
+margin:auto;
+
+}
+
+
+
+.litHeroBoard{
+
+background:#fff;
+
+border-radius:25px;
+
+overflow:hidden;
+
+box-shadow:0 20px 70px rgba(0,0,0,.08);
+
+}
+
+
+
+.litHeroContent{
+
+padding:60px;
+
+}
+
+
+
+.litHeroContent h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:40px;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+}
+
+
+
+.litHeroContent p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+
+
+.litHeroFeatures{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:18px;
+
+margin-top:40px;
+
+}
+
+
+
+.litHeroFeatures div{
+
+background:#faf8f3;
+
+padding:18px;
+
+border-left:4px solid #c9a961;
+
+font-weight:600;
+
+color:#0b2545;
+
+}
+
+
+
+.litHeroFeatures i{
+
+color:#c9a961;
+
+margin-right:8px;
+
+}
+
+
+
+.litCaseFile{
+
+background:#0b2545;
+
+height:100%;
+
+padding:50px 35px;
+
+text-align:center;
+
+color:#fff;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+}
+
+
+
+.litFileHead{
+
+font-size:13px;
+
+letter-spacing:3px;
+
+margin-bottom:25px;
+
+opacity:.8;
+
+}
+
+
+
+.litFileIcon{
+
+width:95px;
+
+height:95px;
+
+margin:auto;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.08);
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:36px;
+
+color:#c9a961;
+
+margin-bottom:30px;
+
+}
+
+
+
+.litCaseFile h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:38px;
+
+line-height:1.3;
+
+margin-bottom:35px;
+color: #edd08e;
+}
+
+
+
+.litCaseFile ul{
+
+padding:0;
+
+margin:0;
+
+list-style:none;
+
+}
+
+
+
+.litCaseFile li{
+
+padding:14px 0;
+
+border-top:1px solid rgba(255,255,255,.12);
+
+font-size:16px;
+
+}
+
+
+
+.litCaseFile li:last-child{
+
+border-bottom:1px solid rgba(255,255,255,.12);
+
+}
+
+
+
+@media(max-width:991px){
+
+.litHero{
+
+padding:70px 0;
+
+}
+
+
+
+.litHero h1{
+
+font-size:46px;
+
+}
+
+
+
+.litHeroContent{
+
+padding:35px;
+
+}
+
+
+
+.litHeroFeatures{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+.litReport{
+
+padding:100px 0;
+
+background:#ffffff;
+
+}
+
+.litReportHeading{
+
+max-width:850px;
+
+margin:auto;
+
+text-align:center;
+
+margin-bottom:60px;
+
+}
+
+.litReportHeading span{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:#f6f2e8;
+
+border-radius:40px;
+
+font-size:13px;
+
+letter-spacing:2px;
+
+font-weight:700;
+
+color:#c9a961;
+
+margin-bottom:20px;
+
+}
+
+.litReportHeading h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:54px;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+line-height:1.2;
+
+}
+
+.litReportHeading p{
+
+font-size:18px;
+
+color:#666;
+
+line-height:1.9;
+
+}
+
+.litFile{
+
+border:1px solid #e6e6e6;
+
+border-radius:18px;
+
+overflow:hidden;
+
+background:#fff;
+
+box-shadow:0 15px 50px rgba(0,0,0,.05);
+
+}
+
+.litFileHeader{
+
+background:#0b2545;
+
+display:flex;
+
+justify-content:space-between;
+
+padding:22px 35px;
+
+color:#fff;
+
+font-weight:600;
+
+letter-spacing:2px;
+
+font-size:14px;
+
+}
+
+.litFileBody{
+
+padding:25px 40px;
+
+}
+
+.litRow{
+
+display:flex;
+
+gap:30px;
+
+padding:28px 0;
+
+border-bottom:1px solid #ececec;
+
+align-items:flex-start;
+
+}
+
+.litRow:last-child{
+
+border:none;
+
+}
+
+.litNumber{
+
+width:70px;
+
+height:70px;
+
+flex-shrink:0;
+
+border-radius:50%;
+
+background:#c9a961;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:24px;
+
+font-weight:700;
+
+color:#fff;
+
+font-family:'Cormorant Garamond',serif;
+
+}
+
+.litContent h3{
+
+font-size:28px;
+
+font-family:'Cormorant Garamond',serif;
+
+margin-bottom:12px;
+
+color:#0b2545;
+
+}
+
+.litContent p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+@media(max-width:991px){
+
+.litReport{
+
+padding:70px 0;
+
+}
+
+.litReportHeading h2{
+
+font-size:40px;
+
+}
+
+.litRow{
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.litNumber{
+
+width:60px;
+
+height:60px;
+
+font-size:20px;
+
+}
+
+.litContent h3{
+
+font-size:24px;
+
+}
+
+}
+.litFramework{
+
+padding:100px 0;
+
+background:#f8f8f6;
+
+}
+
+.litFrameworkHead{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.litFrameworkHead span{
+
+display:inline-block;
+
+padding:10px 24px;
+
+background:#fff;
+
+border:1px solid #c9a961;
+
+border-radius:40px;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#0b2545;
+
+margin-bottom:20px;
+
+}
+
+.litFrameworkHead h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:56px;
+
+line-height:1.2;
+
+color:#0b2545;
+
+margin-bottom:25px;
+
+}
+
+.litFrameworkHead p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+}
+
+.litBoard{
+
+max-width:1100px;
+
+margin:auto;
+
+}
+
+.litStage{
+
+display:flex;
+
+gap:30px;
+
+align-items:flex-start;
+
+background:#fff;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 10px 35px rgba(0,0,0,.05);
+
+}
+
+.litStageIcon{
+
+width:90px;
+
+height:90px;
+
+flex-shrink:0;
+
+background:#0b2545;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:34px;
+
+color:#c9a961;
+
+}
+
+.litStageContent span{
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:#c9a961;
+
+display:block;
+
+margin-bottom:10px;
+
+}
+
+.litStageContent h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:34px;
+
+color:#0b2545;
+
+margin-bottom:15px;
+
+}
+
+.litStageContent p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#666;
+
+margin:0;
+
+}
+
+.litConnector{
+
+width:4px;
+
+height:55px;
+
+background:#c9a961;
+
+margin:12px auto;
+
+border-radius:50px;
+
+}
+
+.litApplicable{
+
+margin-top:80px;
+
+}
+
+.litApplicable h3{
+
+text-align:center;
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:42px;
+
+margin-bottom:35px;
+
+color:#0b2545;
+
+}
+
+.litTag{
+
+background:#fff;
+
+padding:18px 24px;
+
+text-align:center;
+
+border-radius:10px;
+
+font-weight:600;
+
+color:#0b2545;
+
+border-left:4px solid #c9a961;
+
+transition:.3s;
+
+height:100%;
+
+}
+
+.litTag:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+@media(max-width:991px){
+
+.litFramework{
+
+padding:70px 0;
+
+}
+
+.litFrameworkHead h2{
+
+font-size:40px;
+
+}
+
+.litStage{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.litStageIcon{
+
+margin:auto;
+
+}
+
+.litStageContent h3{
+
+font-size:28px;
+
+}
+
+.litConnector{
+
+height:35px;
+
+}
+
+.litApplicable h3{
+
+font-size:32px;
+
+}
+
+}
+
+.litCTA{
+
+padding:100px 0;
+
+background:#ffffff;
+
+}
+
+.litCertificate{
+
+background:linear-gradient(135deg,#0b2545 0%,#133760 100%);
+
+border-radius:24px;
+
+padding:70px;
+
+color:#fff;
+
+box-shadow:0 25px 70px rgba(0,0,0,.18);
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.litCertificate:before{
+
+content:"";
+
+position:absolute;
+
+right:-120px;
+
+top:-120px;
+
+width:320px;
+
+height:320px;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.04);
+
+}
+
+.litCertificateHeader{
+
+display:flex;
+
+align-items:center;
+
+gap:35px;
+
+margin-bottom:45px;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.litSeal{
+
+width:120px;
+
+height:120px;
+
+border-radius:50%;
+
+background:#c9a961;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:46px;
+
+color:#fff;
+
+flex-shrink:0;
+
+}
+
+.litCertificateTitle span{
+
+display:inline-block;
+
+letter-spacing:2px;
+
+font-size:13px;
+
+font-weight:700;
+
+color:#c9a961;
+
+margin-bottom:12px;
+
+}
+
+.litCertificateTitle h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:54px;
+
+line-height:1.2;
+
+margin-bottom:20px;
+
+color:#fff;
+
+}
+
+.litCertificateTitle p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:rgba(255,255,255,.85);
+
+max-width:900px;
+
+margin:0;
+
+}
+
+.litCertificateDivider{
+
+height:1px;
+
+background:rgba(255,255,255,.12);
+
+margin:40px 0;
+
+}
+
+.litService{
+
+background:rgba(255,255,255,.06);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:16px;
+
+padding:35px 20px;
+
+text-align:center;
+
+height:100%;
+
+transition:.35s;
+
+}
+
+.litService:hover{
+
+background:rgba(255,255,255,.1);
+
+transform:translateY(-6px);
+
+}
+
+.litService i{
+
+font-size:34px;
+
+color:#c9a961;
+
+margin-bottom:18px;
+
+}
+
+.litService h4{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:28px;
+
+line-height:1.4;
+
+margin:0;
+
+color:#fff;
+
+}
+
+.litBottom{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:30px;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.litContact{
+
+display:flex;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+font-size:17px;
+
+font-weight:600;
+
+}
+
+.litContact div{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.litContact i{
+
+color:#c9a961;
+
+}
+
+.litBtn{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:14px;
+
+padding:18px 34px;
+
+background:#c9a961;
+
+color:#0b2545;
+
+font-weight:700;
+
+border-radius:50px;
+
+text-decoration:none;
+
+transition:.35s;
+
+}
+
+.litBtn:hover{
+
+background:#fff;
+
+color:#0b2545;
+
+transform:translateY(-3px);
+
+}
+
+@media(max-width:991px){
+
+.litCTA{
+
+padding:70px 0;
+
+}
+
+.litCertificate{
+
+padding:40px 30px;
+
+}
+
+.litCertificateHeader{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.litCertificateTitle h2{
+
+font-size:40px;
+
+}
+
+.litBottom{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.litContact{
+
+justify-content:center;
+
+}
+
+}

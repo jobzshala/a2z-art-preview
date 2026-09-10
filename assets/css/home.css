@@ -1,0 +1,1919 @@
+/* =========================================================
+   GOVERNMENT APPROVED CAPITAL GAIN VALUERS
+   UNIQUE SECTION-WISE CSS
+   Prefix: gacgv-
+========================================================= */
+
+
+/* =========================================================
+   GLOBAL FONT SAFETY
+========================================================= */
+
+.gacgv-hero,
+.gacgv-rights,
+.gacgv-credentials {
+
+    font-family:
+        "Inter",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    font-size:16px;
+    line-height:1.75;
+
+    box-sizing:border-box;
+
+}
+
+.gacgv-hero *,
+.gacgv-rights *,
+.gacgv-credentials * {
+
+    box-sizing:border-box;
+
+}
+
+.gacgv-hero strong,
+.gacgv-rights strong,
+.gacgv-credentials strong {
+
+    font-weight:800;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.gacgv-hero {
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:90px 20px 0;
+
+    background:
+        radial-gradient(
+            circle at 82% 18%,
+            rgba(197,160,89,.16),
+            transparent 32%
+        ),
+        linear-gradient(
+            135deg,
+            #061f40 0%,
+            #092f62 55%,
+            #061b36 100%
+        );
+
+    color:#ffffff;
+
+}
+
+
+.gacgv-hero-inner {
+
+    width:100%;
+    max-width:1320px;
+
+    margin:0 auto;
+
+}
+
+
+/* =========================================================
+   HERO MASTHEAD
+========================================================= */
+
+.gacgv-hero-masthead {
+
+    max-width:1120px;
+
+    margin:0 auto 55px;
+
+    text-align:center;
+
+}
+
+
+.gacgv-eyebrow {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:8px 18px;
+
+    border:1px solid rgba(216,183,102,.45);
+
+    border-radius:100px;
+
+    background:rgba(255,255,255,.055);
+
+    color:#e4c77e;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:1.6px;
+
+    text-transform:uppercase;
+
+}
+
+
+.gacgv-hero h1 {
+
+    margin:22px auto 0;
+
+    color:#ffffff;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:clamp(42px,5vw,72px);
+
+    line-height:1.02;
+
+    font-weight:600;
+
+    letter-spacing:-1.5px;
+
+}
+
+
+.gacgv-hero h1 strong {
+
+    color:#d8b766;
+
+    font-weight:700;
+
+}
+
+
+.gacgv-title-line {
+
+    width:150px;
+
+    height:3px;
+
+    margin:30px auto 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #d8b766,
+            transparent
+        );
+
+}
+
+
+/* =========================================================
+   HERO MAIN
+========================================================= */
+
+.gacgv-hero-main {
+
+    display:grid;
+
+    grid-template-columns:
+        minmax(0,1.45fr)
+        minmax(350px,.75fr);
+
+    align-items:center;
+
+    gap:65px;
+
+    max-width:1240px;
+
+    margin:0 auto;
+
+}
+
+
+.gacgv-hero-content {
+
+    padding-bottom:55px;
+
+}
+
+
+.gacgv-hero-content p {
+
+    margin:0 0 20px;
+
+    color:#edf4fc;
+
+    font-size:17px;
+
+    line-height:1.82;
+
+}
+
+
+.gacgv-hero-content .gacgv-hero-lead {
+
+    font-size:19px;
+
+    line-height:1.78;
+
+    color:#ffffff;
+
+}
+
+
+.gacgv-hero-content strong {
+
+    color:#f0d48b;
+
+}
+
+
+/* =========================================================
+   HERO PORTRAIT
+========================================================= */
+
+.gacgv-hero-portrait {
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-end;
+
+    align-self:stretch;
+
+    min-height:560px;
+
+}
+
+
+.gacgv-portrait-frame {
+
+    position:relative;
+
+    width:100%;
+
+    max-width:470px;
+
+    height:100%;
+
+    min-height:560px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+}
+
+
+.gacgv-portrait-frame::before {
+
+    content:"";
+
+    position:absolute;
+
+    width:390px;
+
+    height:390px;
+
+    border-radius:50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(216,183,102,.23),
+            rgba(216,183,102,.04) 62%,
+            transparent 70%
+        );
+
+    top:65px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+
+.gacgv-portrait-topline {
+
+    position:absolute;
+
+    top:15px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:110px;
+
+    height:3px;
+
+    background:#d8b766;
+
+}
+
+
+.gacgv-nitesh-image {
+
+    position:relative;
+
+    z-index:2;
+
+    display:block;
+
+    width:100%;
+
+    max-width:440px;
+
+    height:554px;
+
+    object-fit:contain;
+
+    object-position:center bottom;
+
+    filter:
+        drop-shadow(
+            0 25px 35px rgba(0,0,0,.34)
+        );
+
+}
+
+
+.gacgv-portrait-caption {
+
+    position:relative;
+
+    z-index:3;
+
+    width:calc(100% - 45px);
+
+    max-width:400px;
+
+    margin-top:-5px;
+
+    padding:18px 17px 20px;
+
+    text-align:center;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(6,31,64,.96),
+            rgba(9,47,98,.96)
+        );
+
+    border-top:1px solid rgba(216,183,102,.65);
+
+    border-bottom:1px solid rgba(216,183,102,.35);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.25);
+
+}
+
+
+.gacgv-caption-label {
+
+    display:block;
+
+    margin-bottom:4px;
+
+    color:#d8b766;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:1.8px;
+
+    text-transform:uppercase;
+
+}
+
+
+.gacgv-portrait-caption strong {
+
+    display:block;
+
+    color:#ffffff;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:28px;
+
+    line-height:1.15;
+
+}
+
+
+.gacgv-portrait-caption small {
+
+    display:block;
+
+    margin-top:4px;
+
+    color:#dbe7f5;
+
+    font-size:15px;
+
+}
+
+
+/* =========================================================
+   HERO CTA BAND
+========================================================= */
+
+.gacgv-hero-actions {
+
+    position:relative;
+
+    display:grid;
+
+    grid-template-columns:
+        .75fr
+        1.65fr;
+
+    gap:30px;
+
+    align-items:center;
+
+    padding:32px 35px;
+
+    margin-top:5px;
+
+    background:
+        linear-gradient(
+            100deg,
+            rgba(255,255,255,.075),
+            rgba(216,183,102,.09)
+        );
+
+    border-top:1px solid rgba(216,183,102,.32);
+
+}
+
+
+.gacgv-action-intro span {
+
+    display:block;
+
+    margin-bottom:4px;
+
+    color:#d8b766;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+}
+
+
+.gacgv-action-intro strong {
+
+    display:block;
+
+    color:#ffffff;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:25px;
+
+    line-height:1.25;
+
+}
+
+
+.gacgv-action-buttons {
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+}
+
+
+.gacgv-btn {
+
+    min-height:54px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:11px;
+
+    padding:13px 20px;
+
+    border-radius:5px;
+
+    text-decoration:none !important;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    line-height:1.3;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background .3s ease;
+
+}
+
+
+.gacgv-btn i {
+
+    flex-shrink:0;
+
+}
+
+
+.gacgv-btn-primary {
+
+    background:
+        linear-gradient(
+            135deg,
+            #d8b766,
+            #b88723
+        );
+
+    color:#071f3e !important;
+
+    box-shadow:
+        0 10px 24px rgba(0,0,0,.22);
+
+}
+
+
+.gacgv-btn-primary:hover {
+
+    color:#061f40 !important;
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.32);
+
+}
+
+
+.gacgv-btn-secondary {
+
+    border:1px solid rgba(216,183,102,.65);
+
+    background:rgba(255,255,255,.035);
+
+    color:#ffffff !important;
+
+}
+
+
+.gacgv-btn-secondary:hover {
+
+    color:#ffffff !important;
+
+    background:rgba(216,183,102,.15);
+
+    transform:translateY(-3px);
+
+}
+
+
+.gacgv-phone-strip {
+
+    grid-column:1 / -1;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:15px;
+
+    padding-top:20px;
+
+    border-top:1px solid rgba(255,255,255,.09);
+
+}
+
+
+.gacgv-phone-strip span {
+
+    color:#dbe7f5;
+
+    font-size:15px;
+
+}
+
+
+.gacgv-phone-strip a {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#f0d48b !important;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    text-decoration:none !important;
+
+}
+
+
+/* =========================================================
+   SECTION 1 — RIGHTS
+========================================================= */
+
+.gacgv-rights {
+
+    position:relative;
+
+    padding:105px 20px;
+
+    background:#f7f8fa;
+
+    color:#17283e;
+
+}
+
+
+.gacgv-rights-inner {
+
+    width:100%;
+
+    max-width:1280px;
+
+    margin:0 auto;
+
+}
+
+
+.gacgv-section-heading {
+
+    max-width:1000px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+
+}
+
+
+.gacgv-section-kicker {
+
+    display:inline-block;
+
+    margin-bottom:14px;
+
+    color:#b88723;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    letter-spacing:1.5px;
+
+    text-transform:uppercase;
+
+}
+
+
+.gacgv-section-heading h2 {
+
+    margin:0;
+
+    color:#092f62;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:clamp(35px,4vw,52px);
+
+    line-height:1.08;
+
+    font-weight:600;
+
+}
+
+
+.gacgv-section-heading h2 strong {
+
+    color:#b88723;
+
+}
+
+
+.gacgv-heading-rule {
+
+    width:100px;
+
+    height:3px;
+
+    margin:25px auto 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            #092f62,
+            #b88723
+        );
+
+}
+
+
+/* =========================================================
+   RIGHTS GRID
+========================================================= */
+
+.gacgv-rights-grid {
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+.gacgv-right-card {
+
+    position:relative;
+
+    padding:36px 30px 32px;
+
+    background:#ffffff;
+
+    border:1px solid #e2e7ed;
+
+    border-top:4px solid #092f62;
+
+    box-shadow:
+        0 12px 30px rgba(9,47,98,.07);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+
+}
+
+
+.gacgv-right-card:hover {
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0 20px 40px rgba(9,47,98,.13);
+
+}
+
+
+.gacgv-right-card-featured {
+
+    border-top-color:#b88723;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff,
+            #fffdf7
+        );
+
+}
+
+
+.gacgv-right-number {
+
+    margin-bottom:12px;
+
+    color:#d8b766;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:54px;
+
+    line-height:.9;
+
+    font-weight:700;
+
+}
+
+
+.gacgv-right-label {
+
+    display:block;
+
+    margin-bottom:12px;
+
+    color:#b88723;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    letter-spacing:.7px;
+
+    text-transform:uppercase;
+
+}
+
+
+.gacgv-right-content h3 {
+
+    margin:0 0 18px;
+
+    color:#092f62;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:29px;
+
+    line-height:1.13;
+
+    font-weight:700;
+
+}
+
+
+.gacgv-right-content p {
+
+    margin:0 0 16px;
+
+    color:#43566d;
+
+    font-size:16px;
+
+    line-height:1.78;
+
+}
+
+
+.gacgv-right-content strong {
+
+    color:#092f62;
+
+}
+
+
+.gacgv-right-cta {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:9px;
+
+    margin-top:10px;
+
+    padding:13px 18px;
+
+    border-radius:4px;
+
+    background:#092f62;
+
+    color:#ffffff !important;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    line-height:1.3;
+
+    text-decoration:none !important;
+
+    transition:
+        background .3s ease,
+        transform .3s ease;
+
+}
+
+
+.gacgv-right-cta:hover {
+
+    background:#b88723;
+
+    color:#ffffff !important;
+
+    transform:translateY(-2px);
+
+}
+
+
+/* =========================================================
+   RIGHTS CLOSING
+========================================================= */
+
+.gacgv-rights-closing {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:22px;
+
+    margin-top:45px;
+
+    padding:28px 30px;
+
+    background:#092f62;
+
+    border-left:5px solid #d8b766;
+
+    box-shadow:
+        0 15px 35px rgba(9,47,98,.12);
+
+}
+
+
+.gacgv-closing-mark {
+
+    flex:0 0 50px;
+
+    width:50px;
+
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:rgba(216,183,102,.14);
+
+    color:#e0c27a;
+
+    font-size:21px;
+
+}
+
+
+.gacgv-rights-closing p {
+
+    flex:1;
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    line-height:1.65;
+
+}
+
+
+.gacgv-rights-closing p strong {
+
+    color:#e5c87f;
+
+}
+
+
+.gacgv-framework-link {
+
+    flex-shrink:0;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:9px;
+
+    padding:13px 18px;
+
+    border:1px solid rgba(216,183,102,.6);
+
+    color:#f0d48b !important;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    text-decoration:none !important;
+
+}
+
+
+.gacgv-framework-link:hover {
+
+    background:#b88723;
+
+    color:#ffffff !important;
+
+}
+
+
+/* =========================================================
+   SECTION 2 — CREDENTIALS
+========================================================= */
+
+.gacgv-credentials {
+
+    padding:105px 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #061f40,
+            #092f62
+        );
+
+    color:#ffffff;
+
+}
+
+
+.gacgv-credentials-inner {
+
+    width:100%;
+
+    max-width:1240px;
+
+    margin:0 auto;
+
+}
+
+
+.gacgv-credentials-intro {
+
+    max-width:780px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+
+}
+
+
+.gacgv-credentials-intro h2 {
+
+    margin:0 0 18px;
+
+    color:#ffffff;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:clamp(37px,4vw,55px);
+
+    line-height:1.05;
+
+    font-weight:600;
+
+}
+
+
+.gacgv-credentials-intro h2 strong {
+
+    color:#d8b766;
+
+}
+
+
+.gacgv-credentials-intro p {
+
+    margin:0;
+
+    color:#dbe7f5;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+
+/* =========================================================
+   CREDENTIAL LIST
+========================================================= */
+
+.gacgv-credentials-list {
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:18px;
+
+}
+
+
+.gacgv-credential-item {
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    padding:27px 26px;
+
+    background:
+        rgba(255,255,255,.055);
+
+    border:1px solid rgba(255,255,255,.11);
+
+    border-left:3px solid rgba(216,183,102,.55);
+
+    transition:
+        transform .3s ease,
+        background .3s ease,
+        border-color .3s ease;
+
+}
+
+
+.gacgv-credential-item:hover {
+
+    transform:translateY(-4px);
+
+    background:
+        rgba(255,255,255,.085);
+
+    border-left-color:#d8b766;
+
+}
+
+
+.gacgv-credential-highlight {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(216,183,102,.13),
+            rgba(255,255,255,.045)
+        );
+
+    border-left-color:#d8b766;
+
+}
+
+
+.gacgv-credential-icon {
+
+    flex:0 0 52px;
+
+    width:52px;
+
+    height:52px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:1px solid rgba(216,183,102,.42);
+
+    border-radius:50%;
+
+    color:#e0c27a;
+
+    font-size:19px;
+
+}
+
+
+.gacgv-credential-text {
+
+    min-width:0;
+
+}
+
+
+.gacgv-credential-text > span {
+
+    display:block;
+
+    margin-bottom:5px;
+
+    color:#d8b766;
+
+    font-size:15px;
+
+    font-weight:800;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+
+.gacgv-credential-text h3 {
+
+    margin:0 0 7px;
+
+    color:#ffffff;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:25px;
+
+    line-height:1.2;
+
+    font-weight:700;
+
+}
+
+
+.gacgv-credential-text p {
+
+    margin:0;
+
+    color:#d6e2ef;
+
+    font-size:15px;
+
+    line-height:1.65;
+
+}
+
+
+.gacgv-credential-text strong {
+
+    color:#f0d48b;
+
+}
+
+
+/* =========================================================
+   CREDENTIAL CTA
+========================================================= */
+
+.gacgv-credentials-cta {
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:30px;
+
+    margin-top:55px;
+
+    padding:30px 34px;
+
+    border:1px solid rgba(216,183,102,.35);
+
+    background:
+        linear-gradient(
+            100deg,
+            rgba(255,255,255,.07),
+            rgba(216,183,102,.10)
+        );
+
+}
+
+
+.gacgv-credentials-cta-copy span {
+
+    display:block;
+
+    margin-bottom:4px;
+
+    color:#d8b766;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+}
+
+
+.gacgv-credentials-cta-copy strong {
+
+    display:block;
+
+    color:#ffffff;
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-size:27px;
+
+    line-height:1.2;
+
+}
+
+
+.gacgv-credentials-cta-actions {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-shrink:0;
+
+}
+
+
+.gacgv-final-button {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:11px;
+
+    min-height:55px;
+
+    padding:14px 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d8b766,
+            #b88723
+        );
+
+    color:#061f40 !important;
+
+    font-size:16px;
+
+    font-weight:900;
+
+    text-decoration:none !important;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.24);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+
+}
+
+
+.gacgv-final-button:hover {
+
+    color:#061f40 !important;
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 15px 32px rgba(0,0,0,.35);
+
+}
+
+
+.gacgv-final-phone {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:9px;
+
+    color:#f0d48b !important;
+
+    font-size:19px;
+
+    font-weight:900;
+
+    text-decoration:none !important;
+
+    white-space:nowrap;
+
+}
+
+
+.gacgv-final-phone i {
+
+    width:38px;
+
+    height:38px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:1px solid rgba(216,183,102,.5);
+
+    border-radius:50%;
+
+    font-size:14px;
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width:1100px) {
+
+    .gacgv-hero-main {
+
+        grid-template-columns:
+            minmax(0,1.25fr)
+            minmax(300px,.75fr);
+
+        gap:35px;
+
+    }
+
+    .gacgv-hero-content p {
+
+        font-size:16px;
+
+    }
+
+    .gacgv-nitesh-image {
+
+        height:460px;
+
+    }
+
+    .gacgv-hero-portrait,
+    .gacgv-portrait-frame {
+
+        min-height:510px;
+
+    }
+
+    .gacgv-hero-actions {
+
+        grid-template-columns:1fr;
+
+    }
+
+    .gacgv-action-buttons {
+
+        justify-content:flex-start;
+
+    }
+
+    .gacgv-credentials-cta {
+
+        align-items:flex-start;
+
+        flex-direction:column;
+
+    }
+
+    .gacgv-credentials-cta-actions {
+
+        flex-wrap:wrap;
+
+    }
+
+}
+
+
+/* =========================================================
+   TABLET / SMALL LAPTOP
+========================================================= */
+
+@media (max-width:850px) {
+
+    .gacgv-hero {
+
+        padding-top:70px;
+
+    }
+
+    .gacgv-hero-main {
+
+        grid-template-columns:1fr;
+
+    }
+
+    .gacgv-hero-content {
+
+        padding-bottom:15px;
+
+    }
+
+    .gacgv-hero-portrait {
+
+        min-height:500px;
+
+        margin-top:10px;
+
+    }
+
+    .gacgv-portrait-frame {
+
+        min-height:500px;
+
+    }
+
+    .gacgv-nitesh-image {
+
+        height:430px;
+
+    }
+
+    .gacgv-rights-grid {
+
+        grid-template-columns:1fr;
+
+    }
+
+    .gacgv-right-card {
+
+        padding:32px 28px;
+
+    }
+
+    .gacgv-credentials-list {
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width:600px) {
+
+    .gacgv-hero,
+    .gacgv-rights,
+    .gacgv-credentials {
+
+        padding-left:15px;
+
+        padding-right:15px;
+
+    }
+
+
+    .gacgv-hero {
+
+        padding-top:55px;
+
+    }
+
+
+    .gacgv-eyebrow {
+
+        font-size:15px;
+
+        line-height:1.4;
+
+        padding:7px 13px;
+
+    }
+
+
+    .gacgv-hero h1 {
+
+        font-size:39px;
+
+        line-height:1.04;
+
+        letter-spacing:-.5px;
+
+    }
+
+
+    .gacgv-hero-masthead {
+
+        margin-bottom:35px;
+
+    }
+
+
+    .gacgv-hero-content p,
+    .gacgv-hero-content .gacgv-hero-lead {
+
+        font-size:16px;
+
+        line-height:1.75;
+
+    }
+
+
+    .gacgv-hero-portrait {
+
+        min-height:455px;
+
+    }
+
+
+    .gacgv-portrait-frame {
+
+        min-height:455px;
+
+    }
+
+
+    .gacgv-portrait-frame::before {
+
+        width:300px;
+
+        height:300px;
+
+        top:50px;
+
+    }
+
+
+    .gacgv-nitesh-image {
+
+        height:385px;
+
+    }
+
+
+    .gacgv-portrait-caption {
+
+        width:calc(100% - 20px);
+
+        padding:15px 15px 17px;
+
+    }
+
+
+    .gacgv-portrait-caption strong {
+
+        font-size:25px;
+
+    }
+
+
+    .gacgv-action-buttons {
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+
+    .gacgv-btn {
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+
+    .gacgv-hero-actions {
+
+        padding:25px 18px;
+
+    }
+
+
+    .gacgv-phone-strip {
+
+        flex-direction:column;
+
+        gap:7px;
+
+        text-align:center;
+
+    }
+
+
+    .gacgv-phone-strip a {
+
+        font-size:19px;
+
+    }
+
+
+    .gacgv-rights,
+    .gacgv-credentials {
+
+        padding-top:75px;
+
+        padding-bottom:75px;
+
+    }
+
+
+    .gacgv-section-heading h2,
+    .gacgv-credentials-intro h2 {
+
+        font-size:36px;
+
+    }
+
+
+    .gacgv-right-card {
+
+        padding:28px 22px;
+
+    }
+
+
+    .gacgv-right-content h3 {
+
+        font-size:27px;
+
+    }
+
+
+    .gacgv-rights-closing {
+
+        align-items:flex-start;
+
+        flex-direction:column;
+
+        padding:25px 22px;
+
+    }
+
+
+    .gacgv-framework-link {
+
+        width:100%;
+
+        justify-content:center;
+
+        text-align:center;
+
+    }
+
+
+    .gacgv-credential-item {
+
+        padding:23px 20px;
+
+        gap:15px;
+
+    }
+
+
+    .gacgv-credential-icon {
+
+        flex:0 0 46px;
+
+        width:46px;
+
+        height:46px;
+
+        font-size:17px;
+
+    }
+
+
+    .gacgv-credential-text h3 {
+
+        font-size:23px;
+
+    }
+
+
+    .gacgv-credentials-cta {
+
+        padding:25px 20px;
+
+    }
+
+
+    .gacgv-credentials-cta-copy strong {
+
+        font-size:25px;
+
+    }
+
+
+    .gacgv-credentials-cta-actions {
+
+        width:100%;
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+        gap:15px;
+
+    }
+
+
+    .gacgv-final-button {
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+
+    .gacgv-final-phone {
+
+        justify-content:center;
+
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+========================================================= */
+
+@media (max-width:400px) {
+
+    .gacgv-hero h1 {
+
+        font-size:35px;
+
+    }
+
+
+    .gacgv-nitesh-image {
+
+        height:355px;
+
+    }
+
+
+    .gacgv-hero-portrait,
+    .gacgv-portrait-frame {
+
+        min-height:425px;
+
+    }
+
+
+    .gacgv-section-heading h2,
+    .gacgv-credentials-intro h2 {
+
+        font-size:33px;
+
+    }
+
+}
