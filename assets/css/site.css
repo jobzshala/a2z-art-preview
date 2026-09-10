@@ -1,15 +1,15 @@
-:root { --site-accent: #93b8e0; --site-deep: #071f3e; }
+:root { --site-accent: #8fc0f0; --site-deep: #071f3e; }
 
 /* The theme is gold-on-navy; each site swaps only the metallic accent. */
-.gacgv-eyebrow { color: #93b8e0; border-color: #93b8e073; }
+.gacgv-eyebrow { color: #8fc0f0; border-color: #8fc0f073; }
 .gacgv-section-kicker, .gacgv-right-label, .gacgv-caption-label,
-.gacgv-right-number, .gacgv-closing-mark, .gacgv-framework-link { color: #93b8e0; }
-.gacgv-btn-primary { background: linear-gradient(135deg, #93b8e0, #6984a1); color: #071f3e !important; }
-.gacgv-final-button { background: linear-gradient(135deg, #93b8e0, #6984a1); color: #071f3e !important; }
-.gacgv-final-phone { color: #93b8e0; }
-.gacgv-title-line, .gacgv-heading-rule { background: linear-gradient(90deg, transparent, #93b8e0, transparent); }
-.gacgv-credential-icon { background: #93b8e01f; color: #93b8e0; }
-.gacgv-right-card-featured { border-color: #93b8e05c; }
+.gacgv-right-number, .gacgv-closing-mark, .gacgv-framework-link { color: #8fc0f0; }
+.gacgv-btn-primary { background: linear-gradient(135deg, #8fc0f0, #668aac); color: #071f3e !important; }
+.gacgv-final-button { background: linear-gradient(135deg, #8fc0f0, #668aac); color: #071f3e !important; }
+.gacgv-final-phone { color: #8fc0f0; }
+.gacgv-title-line, .gacgv-heading-rule { background: linear-gradient(90deg, transparent, #8fc0f0, transparent); }
+.gacgv-credential-icon { background: #8fc0f01f; color: #8fc0f0; }
+.gacgv-right-card-featured { border-color: #8fc0f05c; }
 
 /* Body copy on the light sections. The theme's .gacgv-hero-content is light-on-dark
    and belongs to the hero only, so generated prose gets its own class. */
@@ -26,15 +26,15 @@
 .site-prose li { position: relative; padding-left: 1.6rem; color: #46536b; font-size: 15.5px;
   line-height: 1.75; margin-bottom: .55rem; }
 .site-prose li::before { content: ""; position: absolute; left: .35rem; top: .62em;
-  width: 7px; height: 7px; border-radius: 50%; background: #93b8e0; }
+  width: 7px; height: 7px; border-radius: 50%; background: #8fc0f0; }
 .gacgv-section-heading .gacgv-section-kicker { text-transform: uppercase; }
 
 /* the theme paints the tail of a heading gold when it is wrapped in <strong> */
 .gacgv-section-heading h2 strong, .gacgv-hero-masthead h1 strong,
-.gacgv-credentials-intro h2 strong { color: #93b8e0; font-weight: inherit; }
+.gacgv-credentials-intro h2 strong { color: #8fc0f0; font-weight: inherit; }
 
 /* emphasis: accent on the dark bands, deep navy on the light cards */
-.gacgv-hero-content strong, .gacgv-credential-text strong { color: #93b8e0; font-weight: 700; }
+.gacgv-hero-content strong, .gacgv-credential-text strong { color: #8fc0f0; font-weight: 700; }
 .gacgv-right-content strong { color: #071f3e; font-weight: 700; }
 .gacgv-right-content a, .site-prose a { color: #0e4182; }
 .gacgv-hero-lead { font-size: 16.5px; line-height: 1.8; }
@@ -54,6 +54,6 @@
 form input, form textarea { width: 100%; padding: 14px 16px; margin-bottom: 14px;
   border: 1px solid #d3dbe6; border-radius: 8px; font: inherit;
   background: #fff; color: #12233f; }
-form input:focus, form textarea:focus { outline: 2px solid #93b8e0; border-color: #93b8e0; }
+form input:focus, form textarea:focus { outline: 2px solid #8fc0f0; border-color: #8fc0f0; }
 form input::placeholder, form textarea::placeholder { color: #8695ab; }
 form button { cursor: pointer; border: 0; }
